@@ -1,0 +1,112 @@
+.card {
+    text-align: center;
+    /* padding-top: 10px; */
+    opacity: 1;
+    color: white;
+    height: 200px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a1/Momo_nepal.jpg');
+    background-size: cover;
+    margin-top: 10px !important;
+    /* width: 400px !important; */
+    border-radius: 5px;
+    border: 2px solid white !important;
+}
+
+.card2 {
+    text-align: center;
+    padding-top: 10px;
+    opacity: 1;
+    color: white;
+    height: 200px;
+    background-image: url('https://www.seriouseats.com/recipes/images/2011/08/20110803-grilled-tandoori-chicken-tikka-indian-primary.jpg');
+    background-size: cover;
+    margin-top: 10px !important;
+    /* width: 400px !important; */
+    border-radius: 5px;
+    border: 2px solid white !important;
+}
+
+.card3 {
+    text-align: center;
+    padding-top: 10px;
+    opacity: 1;
+    color: white;
+    height: 200px;
+    width: 100px;
+    background-image: url('https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/2/19/0/FNK_15-min-Dinner-Quick-Indian-Curry-with-Chicken-and-Peas-H-0105_s4x3.jpg.rend.hgtvcom.826.620.suffix/1487538527454.jpeg');
+    background-size: cover;
+    margin-top: 10px !important;
+    /* width: 400px !important; */
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.card4 {
+    text-align: center;
+    padding-top: 10px;
+    opacity: 1;
+    color: white;
+    height: 200px;
+    background-image: url('https://www.whiskaffair.com/wp-content/uploads/2017/04/Easy-Mango-Lassi-3.jpg');
+    background-size: cover;
+    margin-top: 10px !important;
+    /* width: 400px !important; */
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.card5 {
+    text-align: center;
+    padding-top: 10px;
+    opacity: 1;
+    color: white;
+    height: 200px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/88/Gulaab_Jamun_%28homemade%21%29_bright.jpg');
+    background-size: cover;
+    margin-top: 10px !important;
+    /* width: 400px !important; */
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.card6 {
+    text-align: center;
+    padding-top: 10px;
+    opacity: 1;
+    color: white;
+    height: 200px;
+    background-image: url('https://i.pinimg.com/originals/ee/af/3c/eeaf3c10e2db9a0cf92ea4b2e7697f28.jpg');
+    background-size: cover;
+    margin-top: 10px !important;
+    /* width: 400px !important; */
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.card7 {
+    text-align: center;
+    padding-top: 10px;
+    opacity: 1;
+    color: white;
+    height: 200px;
+    background-image: url('https://marigoldmaison.com/wp-content/uploads/Tandoori-Chicken.jpg');
+    background-size: cover;
+    margin-top: 10px !important;
+    /* width: 400px !important; */
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.container{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    width: 100%;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: black !important;
+}
+
+
+

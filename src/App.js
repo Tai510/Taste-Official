@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Navigation from './Components/Nav/Navigation';
+import Home from './Components/Home/Home';
+import DinnerMenu from './Components/Menu/DinnerMenu';
+import LunchMenu from './Components/Menu/LunchMenu';
+import WineList from './Components/Menu/WineList';
+import TakeOut from './Components/Menu/TakeOut';
+import Contact from './Components/Contact/Contact';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import styled from 'styled-components';
+import Footer from './Components/Footer/Footer';
+
+
+
+
+const Main = styled.div`
+  text-align: center;
+`;
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Main className="App">
+      <Router>
+        <Navigation />
+        <Route exact path='/' component={Home} />
+        <Route path='/lunch-menu' component={LunchMenu} />
+        <Route path='/dinner-menu' component={DinnerMenu} />
+        <Route path='/wine-list' component={WineList} />
+        <Route path='/take-out' component={TakeOut} />
+        <Route path='/contact' component={Contact} />
+        <Footer />
+      </ Router>
+    </Main>
   );
 }
 
