@@ -26,7 +26,7 @@ and (max-device-width : 568px) {
 and (min-device-width : 320px) 
 and (max-device-width : 568px) { 
     padding-left: 0px !important;
-    padding-right: 25px !important;
+    padding-right: 35px !important;
 }
 
 @media only screen 
