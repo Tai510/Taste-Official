@@ -164,7 +164,7 @@ const Home = () => {
 
                 <HomeGreeting>
                     <TitleText1>
-                        <h3>Welcome to</h3>
+                        <h3>Welcome to Nepla</h3>
                         <h1>TASTE OF THE HIMALAYAS</h1>
                         <p>TRADITIONAL NEPALESE, TIBETAN & INDIAN DISHES.</p>
                     </TitleText1>
