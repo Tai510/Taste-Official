@@ -207,17 +207,17 @@ const DinnerMenu = () => {
                         </div>
 
                         <div className='add-ons'>
-                            <h5>Chicken 6</h5>
+                            <h5>Chicken 7</h5>
                             <h5>Lamb 6</h5>
                             <h5>Salmon 7</h5>
-                            <h5>Vegetable 4</h5>
+                            <h5>Vegetable 5</h5>
                         </div>
                     </div>
 
                     <div>
                         <h3>Vegetable Tandoori</h3>
                         <p>mixed vegetables on a sizzling platter</p>
-                        <p>$16</p>
+                        <p>$17</p>
                     </div>
 
                     <div>
@@ -229,31 +229,31 @@ const DinnerMenu = () => {
                     <div>
                         <h3>Lamb Tandoori</h3>
                         <p>cubes of boneless lamb marinated & broiled in tandoor oven</p>
-                        <p>$18</p>
+                        <p>$20</p>
                     </div>
 
                     <div>
                         <h3>Salmon Tandoori</h3>
                         <p>salmon cubes marinated & broiled in tandoor oven</p>
-                        <p>$20</p>
+                        <p>$21</p>
                     </div>
 
                     <div>
                         <h3>Tandoori Tikka</h3>
                         <p>boneless chicken breast marinated & broiled in tandoor oven</p>
-                        <p>$18</p>
+                        <p>$19</p>
                     </div>
 
                     <div>
                         <h3>Tandoori Mixed Grill</h3>
                         <p>a mix of chicken, lamb and salmon tandoori</p>
-                        <p>$24</p>
+                        <p>$25</p>
                     </div>
 
                     <div>
                         <h3>Rack Of Lamb</h3>
                         <p>rack of lamb marinated in spices, broiled in tandoori oven</p>
-                        <p>$25</p>
+                        <p>$26</p>
                     </div>
                 </div>
             </div>
@@ -286,48 +286,48 @@ const DinnerMenu = () => {
                     <div>
                         <h3>Plain Naan</h3>
                         <p>traditionally baked bread in tandoor oven</p>
-                        <p>$3</p>
+                        <p>$4</p>
                     </div>
 
                     <div>
                         <h3>Garlic Cilantro Naan</h3>
                         <p>garlic and cilantro spiced naan</p>
-                        <p>$3.50</p>
+                        <p>$4.50</p>
                     </div>
 
                     <div>
                         <h3>Garlic Basil Naan</h3>
                         <p>garlic and basil spiced naan</p>
-                        <p>$3.50</p>
+                        <p>$4.50</p>
                     </div>
 
                     <div>
                         <h3>Papad</h3>
                         <p>deep fried, baked flat lentin wafers (papadam)</p>
-                        <p>$3</p>
+                        <p>$4</p>
                     </div>
 
                     <div>
                         <h3>Raita</h3>
                         <p>yougurt with cucumber, mint and spices</p>
-                        <p>$3</p>
+                        <p>$4</p>
                     </div>
 
                     <div>
                         <h3>Mango Chutney</h3>
                         <p>garlic and basil spiced naan</p>
-                        <p>$2.00</p>
+                        <p>$4</p>
                     </div>
 
                     <div>
                         <h3>Mixed Pickles</h3>
                         <p>chicken with bones marinated & broiled in tandoor oven</p>
-                        <p>$2</p>
+                        <p>$3</p>
                     </div>
 
                     <div>
                         <h3>Steamed Basmati Rice</h3>
-                        <p>$3</p>
+                        <p>$4</p>
                     </div>
 
                     <div>
@@ -352,17 +352,17 @@ const DinnerMenu = () => {
 
                     <div className='beverage-price'>
                         <h4>Mango Lassi</h4>
-                        <p>$4</p>
+                        <p>$5</p>
                     </div>
 
                     <div className='beverage-price'>
                         <h4>Fresh Lemonade</h4>
-                        <p>$4</p>
+                        <p>$3</p>
                     </div>
 
                     <div className='beverage-price'>
                         <h4>Tea Herbal/Spiced (Hot/Iced)</h4>
-                        <p>$4</p>
+                        <p>$3</p>
                     </div>
 
                     <div className='beverage-price'>
@@ -372,7 +372,7 @@ const DinnerMenu = () => {
 
                     <div className='beverage-price'>
                         <h4>Sparkling Water</h4>
-                        <p>$5</p>
+                        <p>$6</p>
                     </div>
 
                     <div className='beverage-price'>

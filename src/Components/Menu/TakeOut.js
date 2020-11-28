@@ -9,20 +9,20 @@ const TakeOut = () => {
             </div>
             <div className='categories'>
                 <div>
-                    <h2>Appetizers</h2>
+                <h2>Appetizers</h2>
                 </div>
 
                 <div>
                     <div>
                         <h3>Pakoras</h3>
                         <p>mixed deep fried vegetable fritters served with mint sauce</p>
-                        <p>$5</p>
+                        <p>$7</p>
                     </div>
 
                     <div>
                         <h3>Samosas</h3>
                         <p>2 crisp patties stuffed spiced potatoes and green peas, served with mint sauce</p>
-                        <p>$6</p>
+                        <p>$7</p>
                     </div>
 
                     <div>
@@ -52,7 +52,7 @@ const TakeOut = () => {
                     <div>
                         <h3>Lamb Momo</h3>
                         <p>steamed lamb dumplings, tomato chutney</p>
-                        <p>$10</p>
+                        <p>$11</p>
                     </div>
 
                     <div>
@@ -71,7 +71,7 @@ const TakeOut = () => {
                 <div className='curry'>
                     <div className='adding-option'>
                         <div>
-                            <h3>Add To Any Curry</h3>
+                            <h3>Add To Any Lunch</h3>
                         </div>
 
                         <div className='add-ons'>
@@ -79,27 +79,27 @@ const TakeOut = () => {
                             <h5>Lamb 5</h5>
                             <h5>Salmon 5</h5>
                             <h5>Shrimp 5</h5>
-                            <h5>Vegetable 3</h5>
-                            <h5>Paneer 3</h5>
+                            <h5>Vegetable 4</h5>
+                            <h5>Paneer 4</h5>
                         </div>
                     </div>
 
                     <div>
                         <h3>Mismas Tarkari</h3>
                         <p>mixed vegetables cooked in onion and tomato gravy</p>
-                        <p>$12</p>
+                        <p>$13</p>
                     </div>
 
                     <div>
                         <h3>Alu Cauli</h3>
                         <p>potatoes, cauliflower & peas with onion and tomato gravy</p>
-                        <p>$12</p>
+                        <p>$13</p>
                     </div>
 
                     <div>
                         <h3>Alu Bhanta</h3>
                         <p>himalayan style cubes of eggplant & potatoes in curry sauce</p>
-                        <p>$12</p>
+                        <p>$13</p>
                     </div>
 
                     <div>
@@ -123,25 +123,19 @@ const TakeOut = () => {
                     <div>
                         <h3>Chicken Chille</h3>
                         <p>pan fried chicken strips, peepers, onion, jalapenio</p>
-                        <p>$12</p>
+                        <p>$13</p>
                     </div>
 
                     <div>
                         <h3>Shekwa</h3>
                         <p>tandoored lamb cubes, peppers, onion, spinach, spices</p>
-                        <p>$12</p>
-                    </div>
-
-                    <div>
-                        <h3>Kukra Ko Tarkari</h3>
-                        <p>aromatic boneless chicken (dark meat) curry</p>
-                        <p>$14</p>
+                        <p>$13</p>
                     </div>
 
                     <div>
                         <h3>Kukra Saag</h3>
                         <p>boneless chicken(dark meat) & spincach curry</p>
-                        <p>$15</p>
+                        <p>$16</p>
                     </div>
 
                     <div>
@@ -169,12 +163,12 @@ const TakeOut = () => {
                         </div>
 
                         <div className='add-ons'>
-                            <h5>Chicken 15</h5>
-                            <h5>Lamb 17</h5>
+                            <h5>Paneer 14</h5>
+                            <h5>Vegetable 14</h5>
                             <h5>Salmon 16</h5>
                             <h5>Shrimp 16</h5>
-                            <h5>Vegetable 13</h5>
-                            <h5>Paneer 14</h5>
+                            <h5>Chicken 16</h5>
+                            <h5>Lamb 17</h5>
                         </div>
 
                     </div>
@@ -186,12 +180,12 @@ const TakeOut = () => {
                         </div>
 
                         <div className='add-ons'>
-                            <h5>Chicken 15</h5>
-                            <h5>Lamb 17</h5>
                             <h5>Salmon 16</h5>
                             <h5>Shrimp 16</h5>
-                            <h5>Vegetable 13</h5>
+                            <h5>Vegetable 14</h5>
                             <h5>Paneer 14</h5>
+                            <h5>Chicken 16</h5>
+                            <h5>Lamb 17</h5>
                         </div>
 
                     </div>
@@ -211,17 +205,17 @@ const TakeOut = () => {
                         </div>
 
                         <div className='add-ons'>
-                            <h5>Chicken 6</h5>
+                            <h5>Chicken 7</h5>
                             <h5>Lamb 6</h5>
                             <h5>Salmon 7</h5>
-                            <h5>Vegetable 4</h5>
+                            <h5>Vegetable 5</h5>
                         </div>
                     </div>
 
                     <div>
                         <h3>Vegetable Tandoori</h3>
                         <p>mixed vegetables on a sizzling platter</p>
-                        <p>$16</p>
+                        <p>$17</p>
                     </div>
 
                     <div>
@@ -233,31 +227,31 @@ const TakeOut = () => {
                     <div>
                         <h3>Lamb Tandoori</h3>
                         <p>cubes of boneless lamb marinated & broiled in tandoor oven</p>
-                        <p>$18</p>
+                        <p>$20</p>
                     </div>
 
                     <div>
                         <h3>Salmon Tandoori</h3>
                         <p>salmon cubes marinated & broiled in tandoor oven</p>
-                        <p>$20</p>
+                        <p>$21</p>
                     </div>
 
                     <div>
                         <h3>Tandoori Tikka</h3>
                         <p>boneless chicken breast marinated & broiled in tandoor oven</p>
-                        <p>$18</p>
+                        <p>$19</p>
                     </div>
 
                     <div>
                         <h3>Tandoori Mixed Grill</h3>
                         <p>a mix of chicken, lamb and salmon tandoori</p>
-                        <p>$24</p>
+                        <p>$25</p>
                     </div>
 
                     <div>
                         <h3>Rack Of Lamb</h3>
                         <p>rack of lamb marinated in spices, broiled in tandoori oven</p>
-                        <p>$25</p>
+                        <p>$26</p>
                     </div>
                 </div>
             </div>
@@ -290,48 +284,48 @@ const TakeOut = () => {
                     <div>
                         <h3>Plain Naan</h3>
                         <p>traditionally baked bread in tandoor oven</p>
-                        <p>$3</p>
+                        <p>$4</p>
                     </div>
 
                     <div>
                         <h3>Garlic Cilantro Naan</h3>
                         <p>garlic and cilantro spiced naan</p>
-                        <p>$3.50</p>
+                        <p>$4.50</p>
                     </div>
 
                     <div>
                         <h3>Garlic Basil Naan</h3>
                         <p>garlic and basil spiced naan</p>
-                        <p>$3.50</p>
+                        <p>$4.50</p>
                     </div>
 
                     <div>
                         <h3>Papad</h3>
                         <p>deep fried, baked flat lentin wafers (papadam)</p>
-                        <p>$3</p>
+                        <p>$4</p>
                     </div>
 
                     <div>
                         <h3>Raita</h3>
                         <p>yougurt with cucumber, mint and spices</p>
-                        <p>$3</p>
+                        <p>$4</p>
                     </div>
 
                     <div>
                         <h3>Mango Chutney</h3>
                         <p>garlic and basil spiced naan</p>
-                        <p>$2.00</p>
+                        <p>$4</p>
                     </div>
 
                     <div>
                         <h3>Mixed Pickles</h3>
                         <p>chicken with bones marinated & broiled in tandoor oven</p>
-                        <p>$2</p>
+                        <p>$3</p>
                     </div>
 
                     <div>
                         <h3>Steamed Basmati Rice</h3>
-                        <p>$3</p>
+                        <p>$4</p>
                     </div>
 
                     <div>
@@ -356,17 +350,17 @@ const TakeOut = () => {
 
                     <div className='beverage-price'>
                         <h4>Mango Lassi</h4>
-                        <p>$4</p>
+                        <p>$5</p>
                     </div>
 
                     <div className='beverage-price'>
                         <h4>Fresh Lemonade</h4>
-                        <p>$4</p>
+                        <p>$3</p>
                     </div>
 
                     <div className='beverage-price'>
                         <h4>Tea Herbal/Spiced (Hot/Iced)</h4>
-                        <p>$4</p>
+                        <p>$3</p>
                     </div>
 
                     <div className='beverage-price'>
@@ -376,7 +370,7 @@ const TakeOut = () => {
 
                     <div className='beverage-price'>
                         <h4>Sparkling Water</h4>
-                        <p>$5</p>
+                        <p>$6</p>
                     </div>
 
                     <div className='beverage-price'>
