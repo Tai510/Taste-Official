@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import './Contact.css';
+import ContactForm from '../Contact/ContactForm';
 
 const ContactPage = styled.div`
     margin-top: 60px;
@@ -8,10 +9,10 @@ const ContactPage = styled.div`
 
 const Space = styled.div`
     margin: 0;
-    background: #1E7390;
+    background: #252934;
     margin-top: -60px;
     padding-top: 60px;
-    height: 440px;
+    height: 100%;
 `;
 
 const ContactTop = styled.div`
@@ -35,8 +36,12 @@ const ContactTop = styled.div`
     a {
         color: white;
         text-decoration: none;
+        border: 1px solid white;
+        padding: 10px;
+        font-weight: bolder;
         :hover {
-            color: #50B7DA; 
+            color: #252934;
+            background: white
             /* text-shadow: 1px 1px black; */
         }
     }
@@ -92,10 +97,10 @@ const Contact = () => {
                         <p>Sonoma, CA 95476</p>
                     </TopAdd>
                     <a href="tel:+1-707-996-1161">{/* <i class="fas fa-mobile-alt"></i> */}707-996-1161</a>
-                    <TopButton>
+                    {/* <TopButton>
                         <button><a style={{ display: "table-cell" }} target="_blank" href="mailto:himalayas.sonoma@gmail.com">Contact via E-mail</a></button>
-                    </TopButton>
-
+                    </TopButton> */}
+                    <ContactForm />
                 </ContactTop>
             </Space>
 
