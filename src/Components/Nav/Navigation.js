@@ -3,9 +3,10 @@ import * as ReactBooStrap from "react-bootstrap";
 import styled from "styled-components";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import PopUp from '../PopUp/PopUp';
+import PopUp from "../PopUp/PopUp";
 
 const NavMain = styled.div`
+  
   .navbar-light .navbar-nav .nav-link {
     margin: 0 50px;
   }
@@ -86,7 +87,7 @@ const Navigation = () => {
       <Navbar id="links" bg="light" expand="lg">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <ReactBooStrap.Nav className='links'>
+          <ReactBooStrap.Nav className="links">
             <PopUp />
             <ReactBooStrap.Nav.Link>
               <p className="home-nav">

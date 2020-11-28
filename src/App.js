@@ -35,9 +35,6 @@ and (max-device-width : 568px) {
      }
 `;
 
-
-
-
 const Main = styled.div`
   text-align: center;
 `;
