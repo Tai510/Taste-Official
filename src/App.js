@@ -7,7 +7,7 @@ import LunchMenu from './Components/Menu/LunchMenu';
 import WineList from './Components/Menu/WineList';
 import TakeOut from './Components/Menu/TakeOut';
 import Contact from './Components/Contact/Contact';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import styled from 'styled-components';
 import Footer from './Components/Footer/Footer';
 import Images from '../src/Images/taste.logo.jpg';
@@ -48,7 +48,7 @@ function App() {
     <Main className="App">
       <Router>
         <div>
-          <TasteLogo src={Images}></TasteLogo>
+          <Link to='/'> <TasteLogo src={Images}></TasteLogo> </Link>
           <Navigation />
         </div>
         <Route exact path='/' component={Home} />
