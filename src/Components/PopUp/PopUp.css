@@ -1,0 +1,13 @@
+.PopUp {
+    width: 165px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+    .PopUp {
+        margin: auto;
+    }
+ }
