@@ -206,14 +206,8 @@
   background: #1e242c;
   color: #fff;
   border: 1px solid #252934;
-}
-
-.form-div input::placeholder {
-  padding-left: 15px;
-}
-
-.form-div textarea::placeholder {
-  padding-left: 15px;
+  outline: none;
+  padding-left: 20px;
 }
 
 .form-div textarea {
@@ -223,6 +217,8 @@
   background: #1e242c;
   color: #fff;
   border: 1px solid #252934;
+  outline: none;
+  padding-left: 20px;
 }
 
 .form-div button {
@@ -234,8 +230,9 @@
 }
 
 .form-div button:hover {
-  background: #fff;
-  color: #252934;
+  background: #50B7DA;;
+  color: white;
+  border: 1px solid #50B7DA;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
@@ -243,11 +240,20 @@
     width: 100%;
     margin-top: 60px;
   }
+
+  .ContactForm button {
+    margin: auto;
+    margin-top: 5px;
+  }
   .form-div input {
     width: 100%;
   }
 
   .form-div textarea {
     width: 100%;
+  }
+
+  .form-div {
+    margin: 0 10px;;
   }
 }
