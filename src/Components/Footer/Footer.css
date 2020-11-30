@@ -56,8 +56,6 @@
     margin: 0;
     margin-bottom: 10px;
     text-shadow: 1px 1px #dfd5d5;
-    /* color: black;
-    text-decoration: none; */
 }
 
 .footer-location a {
@@ -77,7 +75,6 @@
 .footer-location a:hover {
     color: white !important;
     text-shadow: 1px 1px black;
-    /* font-weight: bolder !important; */
 }
 
 .footer-hours {
@@ -175,9 +172,19 @@
     font-weight: bolder !important;
 }
 
+#facebook:hover {
+    color: white !important;
+    text-shadow: 1px 1px #3b5998 !important;
+}
+
 #yelp {
     color: #c41200 !important;
     font-weight: bolder !important;
+}
+
+#yelp:hover {
+    color: white !important;
+    text-shadow: 1px 1px #c41200 !important;
 }
 
 #fb-icon {

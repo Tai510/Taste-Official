@@ -8,7 +8,6 @@
 .contact-bottom-left {
   width: 500px !important;
   border: 1px solid black;
-  border-radius: 5px;
   margin-top: 30px;
   margin-left: 190px;
   margin-bottom: 30px;
@@ -17,7 +16,6 @@
 .contact-bottom-right {
   border: 1px solid black;
   width: 500px;
-  border-radius: 5px;
   margin-top: 30px;
   margin-right: 190px;
   margin-bottom: 30px;
@@ -97,12 +95,12 @@
 
 @media (max-width: 812px) {
   .contact-bottom-left {
-    width: 100% !important;
+    width: 93% !important;
     margin-left: 0 !important;
     margin: auto !important;
   }
   .contact-bottom-right {
-    width: 100% !important;
+    width: 93% !important;
     margin-right: 0 !important;
     margin: auto !important;
     margin-top: 30px !important;
@@ -230,9 +228,9 @@
 }
 
 .form-div button:hover {
-  background: #50B7DA;;
+  background: #50b7da;
   color: white;
-  border: 1px solid #50B7DA;
+  border: 1px solid #50b7da;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
@@ -254,6 +252,6 @@
   }
 
   .form-div {
-    margin: 0 10px;;
+    margin: 0 10px;
   }
 }
