@@ -4,6 +4,8 @@ import { FcAbout } from "react-icons/fc";
 import { TiLocation } from "react-icons/ti";
 import { FcClock } from "react-icons/fc";
 import { FcContacts } from "react-icons/fc";
+import { FcHome } from "react-icons/fc";
+
 
 const Footer = () => {
   return (
@@ -11,7 +13,7 @@ const Footer = () => {
       <div className="footer-home">
         <div className="back-home">
           <a id="back-home" href="/">
-            <i class="fas fa-angle-double-up"></i>
+            <FcHome className='fa-angle-double-up'/>
           </a>
         </div>
       </div>
