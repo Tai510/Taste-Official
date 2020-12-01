@@ -8,15 +8,17 @@ import { FcContacts } from "react-icons/fc";
 
 const Footer = () => {
   return (
-    <div className= 'Footer'>
-      <div className='footer-home'>
-            <a id='back-home' href='/'>
-              To Top
-              <i class="fas fa-chevron-up"></i>
-            </a>
+    <div className="Footer">
+      <div className="footer-home">
+        <a id="back-home" href="/">
+          <div className="back-home">
+            <i class="fas fa-chevron-up"></i>
+            <i class="fas fa-chevron-up"></i>
+          </div>
+        </a>
       </div>
 
-      <div className='footer=top-half'>
+      <div className="footer=top-half">
         <div className="footer-main">
           <div className="footer-info">
             <h4>
