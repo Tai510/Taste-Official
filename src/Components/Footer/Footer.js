@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link } from 'react-router-dom';
 import "./Footer.css";
 import { FcAbout } from "react-icons/fc";
 import { TiLocation } from "react-icons/ti";
@@ -10,11 +9,11 @@ const Footer = () => {
   return (
     <footer className="Footer">
       <div className="footer-home">
-          <div className="back-home">
-            <a id="back-home" href="/">
-              <i class="fas fa-angle-double-up"></i>
-            </a>
-          </div>
+        <div className="back-home">
+          <a id="back-home" href="/">
+            <i class="fas fa-angle-double-up"></i>
+          </a>
+        </div>
       </div>
 
       <div className="footer=top-half">
