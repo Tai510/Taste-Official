@@ -21,8 +21,8 @@ const CoursalSection = styled.div`
   }
 
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-    padding-left: 0px !important;
-    padding-right: 35px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
