@@ -8,14 +8,13 @@ import { FcContacts } from "react-icons/fc";
 
 const Footer = () => {
   return (
-    <div className="Footer">
+    <footer className="Footer">
       <div className="footer-home">
-        <a id="back-home" href="/">
           <div className="back-home">
-            <i class="fas fa-chevron-up"></i>
-            <i class="fas fa-chevron-up"></i>
+            <a id="back-home" href="/">
+              <i class="fas fa-angle-double-up"></i>
+            </a>
           </div>
-        </a>
       </div>
 
       <div className="footer=top-half">
@@ -111,7 +110,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
