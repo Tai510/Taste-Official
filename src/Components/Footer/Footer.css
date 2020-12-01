@@ -340,7 +340,7 @@
 
 .footer-home {
   background: #ebb040;
-  height: 30px;
+  height: 35px;
 }
 
 .footer-home a {
@@ -352,20 +352,28 @@
 }
 
 .footer-home a:hover {
-  color: rgb(223, 94, 94) !important;
+  color: rgb(233, 216, 216) !important;
 }
 
 #back-home {
   width: 20px;
   height: 20px;
-  border: 2px solid #545252;
   padding: 4px 15px;
-  background: #545252;
+  background: #c35d5d;
   outline: none;
   font-size: 15px;
+  border-radius: 2px;
+}
+
+#back-home:hover {
+  background: rgb(202, 14, 14) !important;
 }
 
 #back-home i {
   margin-left: 12px;
+    margin-top: 9px !important;
 }
 
+#back-home i:hover  {
+  padding-bottom: 5px;
+}
