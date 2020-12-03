@@ -126,7 +126,7 @@ const NavMain = styled.div`
 const Navigation = () => {
   return (
     <NavMain>
-      <Navbar id="links" bg="light" expand="lg">
+      <Navbar data-toggle="collapse" id="links" bg="light" expand="lg">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <ReactBooStrap.Nav className="links">
