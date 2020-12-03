@@ -17,7 +17,7 @@ const NavMain = styled.div`
   }
 
   .dropdown-item:hover {
-    background: #a04545!important;
+    background: #a04545 !important;
   }
 
   .dropdown-menu {
