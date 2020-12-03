@@ -24,14 +24,14 @@ function PopUp() {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className="pop-body">
-          ℹ️ No Inside seating but we have a few outside seats with heat lamps.
+          <span>ℹ️</span> No Inside seating but we have a few outside seats with heat lamps.
           If you have any question call{" "}
           <a href="tel:+1-707-996-1161"> 707-996-1161</a>.
         </Modal.Body>
         <Modal.Body className="pop-body">
-          ℹ️ We've implemented sanitation procedures, and we continue to update
+          <span>ℹ️</span> We've implemented sanitation procedures, and we continue to update
           based on the newest CDC guidlines.{" "}
-          <span>
+          
             <a
               style={{ display: "table-cell" }}
               target="_blank"
@@ -40,10 +40,10 @@ function PopUp() {
             >
               (see guidlines)
             </a>
-          </span>
+
         </Modal.Body>
         <Modal.Body className="pop-body">
-          ℹ️ Staff is required to wash hands and santize frequently.
+          <span>ℹ️</span> Staff is required to wash hands and santize frequently.
         </Modal.Body>
         <Modal.Footer className='pop-close-footer'>
           <Button variant="primary" onClick={handleClose}>
