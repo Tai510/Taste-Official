@@ -4,6 +4,20 @@
     margin-bottom: 2px;
 }
 
+.pop-title  span {
+    font-size: 38px !important ;
+}
+
+.pop-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bolder !important;
+}
+
+.pop-body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder !important;
+}
+
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) {
