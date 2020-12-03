@@ -30,7 +30,7 @@ function PopUp() {
         </Modal.Body>
         <Modal.Body className="pop-body">
           ℹ️ We've implemented sanitation procedures, and we continue to update
-          based on the neest CDC guidlines.{" "}
+          based on the newest CDC guidlines.{" "}
           <span>
             <a
               style={{ display: "table-cell" }}
