@@ -24,4 +24,16 @@ and (max-device-width : 568px) {
     .PopUp {
         margin: auto;
     }
+
+    .Modal-main {
+        border: 5px solid red;
+    }
+
+    .pop-close-footer {
+        padding: 9px !important;
+    }
+
+    .pop-body {
+        padding: 7px !important;
+    }
  }

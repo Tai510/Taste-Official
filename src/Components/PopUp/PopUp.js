@@ -15,7 +15,7 @@ function PopUp() {
         Covid Updates
       </Button>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal className='Modal-main' show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title className="pop-title">
             {" "}
@@ -45,7 +45,7 @@ function PopUp() {
         <Modal.Body className="pop-body">
           ℹ️ Staff is required to wash hands and santize frequently.
         </Modal.Body>
-        <Modal.Footer>
+        <Modal.Footer className='pop-close-footer'>
           <Button variant="primary" onClick={handleClose}>
             Close
           </Button>

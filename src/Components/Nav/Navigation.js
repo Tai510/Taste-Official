@@ -6,10 +6,40 @@ import { Link } from "react-router-dom";
 import PopUp from "../PopUp/PopUp";
 
 const NavMain = styled.div`
-  
+  #links {
+    background-image: url('https://images.unsplash.com/photo-1509359149003-657ef23eaf04?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+    border: 1px solid #0c0c0c;
+  }
+
+  .modal-footer {
+      padding: 0!important;
+    }
+
+  .navbar-light .navbar-toggler-icon {
+    font-size: 17px !important;
+    color: red !important;
+}
+
+  .navbar-toggler-icon {
+    color: red !important;
+  }
+
+  .dropdown-menu {
+    padding: 0 !important;
+  }
+
+  #basic-nav-dropdown:hover {
+    color: rgb(111, 179, 77) !important;
+  }
+
+  .drop-down-links a {
+    color: black !important;
+  }
+
   .navbar-light .navbar-nav .nav-link {
     margin: 0 50px;
   }
+
   .bg-light {
     background-color: white !important;
     border-top: 1px solid lightgrey;
@@ -21,10 +51,13 @@ const NavMain = styled.div`
     color: rgba(0, 0, 0, 0.5);
     border-color: white;
     justify-content: center;
-    width: 55px;
+    width: 35px;
     margin: auto;
     outline: none;
     padding: 0;
+    background: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   p {
@@ -34,11 +67,11 @@ const NavMain = styled.div`
   }
 
   a {
-    color: #454444 !important;
+    color: white !important;
     text-decoration: none !important;
     font-weight: bolder !important;
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif !important;
 
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
       font-size: 20px;
@@ -67,6 +100,12 @@ const NavMain = styled.div`
         %3csvgxmlns="http://www.w3.org/2000/svg"width="30"height="30"viewBox="0 0 30 30"%3e%3cpathstroke="rgba%280, 0, 0, 0.5%29"stroke-linecap="round"stroke-miterlimit="10"stroke-width="2"d="M4 7h22M4 15h22M4 23h22"/%3e%3c/svg%3e
       );
       font-size: 25px;
+    }
+    .navbar {
+      border: none !important;
+    }
+    .modal-footer {
+      padding: 0!important;
     }
   }
 
@@ -99,17 +138,17 @@ const Navigation = () => {
               id="basic-nav-dropdown"
             >
               <ReactBooStrap.NavDropdown.Item>
-                <p>
+                <p className='drop-down-links'>
                   <Link to="/lunch-menu">Lunch Menu</Link>
                 </p>
               </ReactBooStrap.NavDropdown.Item>
               <ReactBooStrap.NavDropdown.Item>
-                <p>
+                <p className='drop-down-links'>
                   <Link to="/dinner-menu">Dinner Menu</Link>
                 </p>
               </ReactBooStrap.NavDropdown.Item>
               <ReactBooStrap.NavDropdown.Item>
-                <p>
+                <p className='drop-down-links'>
                   <Link to="/wine-list">Wine List</Link>
                 </p>
               </ReactBooStrap.NavDropdown.Item>
