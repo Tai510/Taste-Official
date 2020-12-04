@@ -88,7 +88,18 @@ const TopButton = styled.div`
 const Contact = () => {
   return (
     <div>
+      
       <div className="nav-background"></div>
+      <div className="restaurant-collage">
+        <div className="restaurant-collage-1"></div>
+        <div className="restaurant-collage-2"></div>
+        <div className="restaurant-collage-3"></div>
+        <div className="restaurant-collage-4"></div>
+        <div className="restaurant-collage-5"></div>
+        <div className="restaurant-collage-6"></div>
+        <div className="restaurant-collage-7"></div>
+      </div>
+
       <div id="contact-title" className="menu-title">
         <h1>We'd love to hear from you!</h1>
         <p>Your feedback is important to us!</p>

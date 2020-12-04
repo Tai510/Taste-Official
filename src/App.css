@@ -8,7 +8,7 @@
 
 .nav-background {
   background-color: #0c0b0b !important;
-  height: 113px;
+  height: 120px;
   margin-top: -120px;
   border: 1px solid #0c0b0b;
 }
@@ -48,16 +48,13 @@
   } */
 }
 
-@media only screen 
-    and (device-width : 414px) 
-    and (device-height : 736px) 
-    and (-webkit-device-pixel-ratio : 3) {
-      /* .logo-side {
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  /* .logo-side {
         height: 100px;
         z-index: 2 !important;
         box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
       } */
-     }
+}
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   /* .logo-side {
@@ -72,3 +69,99 @@
   width: 449px;
   margin-top: -12px;
 }
+
+/* collage styling */
+
+.restaurant-collage-1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAHRyQ6SXSw2T8Vqt9eYsJJAr28XLXq09JUA&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.restaurant-collage-2 {
+  background-image: url("https://s3-media0.fl.yelpcdn.com/bphoto/-BmW1MupFk2z1zSWVSChMA/o.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.restaurant-collage-3 {
+  background-image: url("https://www.sonomacounty.com/sites/default/files/styles/profile_photo_full/public/listing_images/profile/1938/Taste-of-the-Himalayas_91fd2451-5056-a36a-0703ab559b7b50fd.jpg?itok=LOmNfK34");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.restaurant-collage-4 {
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/13/25/a9/80/taste-of-himalayas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.restaurant-collage-5 {
+  background-image: url("https://fastly.4sqi.net/img/general/width960/7440763_UQojvR1chcVgjQ81fuLDKKKoM4X7MXrGg7WgbOhsgwc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.restaurant-collage-6 {
+  background-image: url("https://s3-media0.fl.yelpcdn.com/bphoto/ob2ESuxGqQOfvZXy7KMG5w/l.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.restaurant-collage-7 {
+  background-image: url("https://untappd.akamaized.net/photos/2020_07_24/890cccf38dac5da12ce0cef7b7aa5682_640x640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.restaurant-collage div {
+  /* individual collage div  */
+  /* Collage div  */
+  width: 1400px;
+  height: 150px;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+
+.restaurant-collage {
+  /* the whole collage div  */
+  display: flex;
+  width: 1410px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .restaurant-collage {
+    display: none;
+  }
+}
+
+
+/* iPhone 5 */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { }
+
+
+/* iPhone 8 */
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { }
+
+/* iPhone 8 Plus */
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) { }
+
+/* iPad  */
+@media only screen and (device-width: 768px) { }
+
+/* iPhone X */
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { }

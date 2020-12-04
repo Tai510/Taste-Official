@@ -149,7 +149,6 @@ const NavMain = styled.div`
   .drop-down-links a {
     /* dropdown links on menu */
     color: white !important;
-    text-shadow: 1px 1px black;
     /* border: 5px solid yellow !important; */
   }
 
