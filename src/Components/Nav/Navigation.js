@@ -7,6 +7,7 @@ import PopUp from "../PopUp/PopUp";
 
 const NavMain = styled.div`
   .nav-active {
+    /* home active */
     background-color: rgba(207, 31, 37, 0.9);
 
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
@@ -15,21 +16,19 @@ const NavMain = styled.div`
   }
 
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-    .navbar-nav { /* background from link divs */
+    .navbar-nav {
+      /* background from link divs */
       background: rgba(207, 31, 37, 0.9) !important;
       margin-top: 50px;
     }
   }
 
-  @media only screen 
-    and (device-width : 375px) 
-    and (device-height : 667px) 
-    and (-webkit-device-pixel-ratio : 2) {
-      .navbar-nav {
+  @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    .navbar-nav {
       height: 660px !important;
       margin-top: 50px;
     }
-     }
+  }
 
   @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
     .navbar-nav {
@@ -61,11 +60,9 @@ const NavMain = styled.div`
     
   } */
 
-  @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-    .navbar-collapse { /* Iphone 8 responsive */
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .navbar-collapse {
+      /* Iphone 8 responsive */
       background-color: rgba(207, 31, 37, 0.9);
       margin-right: -22px;
       padding-top: 110px !important;
@@ -73,7 +70,7 @@ const NavMain = styled.div`
       height: 738px;
       z-index: 1;
     }
-}
+  }
 
   @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
     .navbar-collapse {
@@ -254,7 +251,7 @@ const NavMain = styled.div`
       font-size: 35px !important;
     }
     a:hover {
-      color: #ef9c04 !important;
+      color: white !important;
       text-decoration: none !important;
       height: 131px;
       width: 100px;
@@ -330,40 +327,40 @@ const Navigation = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <ReactBooStrap.Nav className="links">
             {/* <PopUp /> */}
-            <ReactBooStrap.Nav.Link className="nav-active">
-              <p className="home-nav">
+            <ReactBooStrap.Nav.Link eventKey={2} href="/" className="nav-active">
+              <div className="home-nav">
                 <Link to="/">Home</Link>
-              </p>
+              </div>
             </ReactBooStrap.Nav.Link>
             <ReactBooStrap.NavDropdown
               title={<a>Menu</a>}
               id="basic-nav-dropdown"
             >
-              <ReactBooStrap.NavDropdown.Item>
-                <p className="drop-down-links">
+              <ReactBooStrap.NavDropdown.Item eventKey={2} href="/lunch-menu">
+                <div className="drop-down-links">
                   <Link to="/lunch-menu">Lunch Menu</Link>
-                </p>
+                </div>
               </ReactBooStrap.NavDropdown.Item>
-              <ReactBooStrap.NavDropdown.Item>
-                <p className="drop-down-links">
+              <ReactBooStrap.NavDropdown.Item eventKey={2} href="/dinner-menu">
+                <div className="drop-down-links">
                   <Link to="/dinner-menu">Dinner Menu</Link>
-                </p>
+                </div>
               </ReactBooStrap.NavDropdown.Item>
-              <ReactBooStrap.NavDropdown.Item>
-                <p className="drop-down-links">
+              <ReactBooStrap.NavDropdown.Item eventKey={2} href="/wine-list">
+                <div className="drop-down-links">
                   <Link to="/wine-list">Wine List</Link>
-                </p>
+                </div>
               </ReactBooStrap.NavDropdown.Item>
             </ReactBooStrap.NavDropdown>
-            <ReactBooStrap.Nav.Link>
-              <p>
-                <Link to="/take-out">Take-Out</Link>
-              </p>
+            <ReactBooStrap.Nav.Link eventKey={2} href="/take-out">
+              <Link to="/take-out">
+                <div>Take-Out</div>
+              </Link>
             </ReactBooStrap.Nav.Link>
             <ReactBooStrap.Nav.Link eventKey={2} href="/contact">
-              <p>
-                <Link to="/contact">Contact</Link>
-              </p>
+              <Link to="/contact">
+                <div>Contact</div>
+              </Link>
             </ReactBooStrap.Nav.Link>
           </ReactBooStrap.Nav>
         </Navbar.Collapse>
