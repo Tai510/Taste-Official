@@ -173,7 +173,7 @@ const DinnerMenu = styled.div`
 
 const Home = () => {
   return (
-    <div>
+    <div id='home'>
       <HomePage>
         {/* <div className="nav-background"></div> */}
         <HomeGreeting>

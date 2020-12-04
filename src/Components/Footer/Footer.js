@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="Footer">
       <div className="footer-home">
         <div className="back-home">
-          <a id="back-home" href="/">
+          <a id="back-home" href="/#home">
             <FcHome className='fa-angle-double-up'/>
           </a>
         </div>
