@@ -40,20 +40,41 @@ const NavMain = styled.div`
 
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
     .navbar-collapse {
+      /* Iphone 5 responsive */
       background-color: rgba(207, 31, 37, 0.9);
       margin-right: -17px;
       padding-top: 76px;
-      margin-left: -99px;
-      height: 568px;
+      margin-left: -117px;
+      height: 575px;
+      z-index: 1;
     }
   }
 
-  @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-    .navbar-collapse {
+  /* @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    
+  } */
+
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .navbar-collapse { /* Iphone 8 responsive */
       background-color: rgba(207, 31, 37, 0.9);
       margin-right: -22px;
       padding-top: 76px;
-      margin-left: -115px;
+      margin-left: -120px !important;
+      height: 738px;
+      z-index: 1;
+    }
+}
+
+  @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+    .navbar-collapse {
+      /* Iphone 8 plus responsive */
+      background-color: rgba(207, 31, 37, 0.9);
+      margin-right: -22px;
+      padding-top: 76px;
+      margin-left: -125px !important;
       height: 738px;
       z-index: 1;
     }
@@ -61,10 +82,11 @@ const NavMain = styled.div`
 
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     .navbar-collapse {
+      /* Iphone X responsive */
       background-color: rgba(207, 31, 37, 0.9);
       margin-right: -21px;
       padding-top: 120px;
-      margin-left: -132px;
+      margin-left: -120px !important;
       height: 813px;
       z-index: 1;
     }
@@ -95,6 +117,7 @@ const NavMain = styled.div`
     border: none !important;
 
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+      /* Iphone 5 responsive */
       margin-top: -20px !important;
       color: black !important;
       padding-left: 38px !important;
@@ -103,6 +126,7 @@ const NavMain = styled.div`
     }
 
     @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+      /* Iphone 8 plus responsive */
       margin-top: 0px !important;
       color: black !important;
       padding-left: 38px !important;
@@ -118,6 +142,7 @@ const NavMain = styled.div`
 
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
     #basic-nav-dropdown:hover {
+      /* Iphone 5 responsive */
     }
   }
 
@@ -140,11 +165,13 @@ const NavMain = styled.div`
       background: rgba(207, 31, 37, 0.9) !important;
 
       @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+        /* Iphone 5 responsive */
         background: #887b7b !important;
       }
     }
 
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+      /* Iphone 5 responsive */
       height: 98px !important;
       padding: 0;
       margin: 0;
@@ -152,6 +179,7 @@ const NavMain = styled.div`
     }
 
     @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+      /* Iphone X responsive */
       height: 90px !important;
       padding: 0;
       margin: 0;
@@ -203,16 +231,19 @@ const NavMain = styled.div`
     border: transparent !important;
 
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+      /* Iphone 5 responsive */
       font-size: 30px;
       color: white !important;
       text-shadow: 1px 1px black;
     }
 
     @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+      /* Iphone 8 plus responsive */
       font-size: 43px;
     }
 
     @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+      /* Iphone X responsive */
       font-size: 35px !important;
     }
     a:hover {
@@ -233,6 +264,7 @@ const NavMain = styled.div`
 
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
     .navbar-light .navbar-toggler-icon {
+      /* Iphone 5 responsive */
       background-image: url(
         data:image/svg + xml,
         %3csvgxmlns="http://www.w3.org/2000/svg"width="30"height="30"viewBox="0 0 30 30"%3e%3cpathstroke="rgba%280, 0, 0, 0.5%29"stroke-linecap="round"stroke-miterlimit="10"stroke-width="2"d="M4 7h22M4 15h22M4 23h22"/%3e%3c/svg%3e
@@ -247,13 +279,15 @@ const NavMain = styled.div`
     }
     .navbar-light .navbar-toggler {
       position: absolute;
-      margin-left: 170px;
+      margin-left: 145px;
       margin-top: -15px;
+      z-index: 2;
     }
   }
 
   @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
     .navbar-light .navbar-toggler {
+      /* Iphone 8 plus responsive */
       margin-left: 214px;
       margin-top: -15px;
       z-index: 2;
@@ -262,6 +296,7 @@ const NavMain = styled.div`
 
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     .navbar-light .navbar-toggler {
+      /* Iphone X responsive */
       margin-left: 175px !important;
       z-index: 2;
       margin-top: 13px;
@@ -270,6 +305,7 @@ const NavMain = styled.div`
 
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     .navbar-light .navbar-toggler-icon {
+      /* Iphone X responsive */
       background-image: url(
         data:image/svg + xml,
         %3csvgxmlns="http://www.w3.org/2000/svg"width="30"height="30"viewBox="0 0 30 30"%3e%3cpathstroke="rgba%280, 0, 0, 0.5%29"stroke-linecap="round"stroke-miterlimit="10"stroke-width="2"d="M4 7h22M4 15h22M4 23h22"/%3e%3c/svg%3e
@@ -286,7 +322,7 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <ReactBooStrap.Nav className="links">
-            <PopUp />
+            {/* <PopUp /> */}
             <ReactBooStrap.Nav.Link className="nav-active">
               <p className="home-nav">
                 <Link to="/">Home</Link>

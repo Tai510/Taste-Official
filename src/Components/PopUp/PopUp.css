@@ -5,15 +5,22 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .PopUp {
+  .PopUp {  /* Iphone 5 responsive */
     margin: auto;
     margin-bottom: -25px;
     margin-top: 0px;
   }
 }
 
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) {
+
+     }
+
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-  .PopUp {
+  .PopUp { /* Iphone 8 plus responsive */
     margin: auto;
     margin-bottom: -25px !important;
     margin-top: 0px !important;
@@ -21,7 +28,7 @@
 }
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-  .PopUp {
+  .PopUp { /* Iphone X responsive */
     margin: auto;
     margin-bottom: -25px !important;
     margin-top: 0px !important;
@@ -29,8 +36,8 @@
 }
 
 .update-button {
-  height: 95px !important;
-  width: 99px !important;
+  height: 50px !important;
+    width: 130px !important;
   padding: 0 !important;
   margin-top: 8px;
   border: none !important;
@@ -42,7 +49,7 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .update-button {
+  .update-button { /* Iphone 5 responsive */
     width: 130px !important;
     height: 35px !important;
     margin-left: -20px;
@@ -52,7 +59,7 @@
 }
 
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-  .update-button {
+  .update-button { /* Iphone 8 plus responsive */
     width: 170px !important;
     height: 65px !important;
     margin-left: -39px;
@@ -62,7 +69,7 @@
 }
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-  .update-button {
+  .update-button { /* Iphone X responsive */
     width: 170px !important;
     height: 65px !important;
     margin-left: -39px;
@@ -95,7 +102,7 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .PopUp {
+  .PopUp {  /* Iphone 5 responsive */
     margin: auto;
   }
 

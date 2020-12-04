@@ -14,12 +14,21 @@ const HomePage = styled.div`
   margin-top: -200px;
 
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-    height: 653px !important;
+    /* Iphone 5 responsive */
+    height: 655px !important;
+    padding-top: 220px;
+  }
+
+  @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    /* Iphone 8  responsive */
+    height: 740px !important;
   }
 
   @media (max-width: 812px) {
-    width: 100%;
-    height: 530px !important;
+    /* Iphone 8 plus responsive */ /* homepage background */
+    /* width: 100%;
+    height: 510px !important;
+    padding-top: 180px; */
   }
 `;
 
@@ -99,7 +108,7 @@ and (max-device-width : 568px) {
         margin-bottom: -11px !important;
     }
     p {
-        font-size: 10px;
+        font-size: 11px;
     }
     }
 }
@@ -122,6 +131,14 @@ and (max-device-width : 568px) {
 `;
 
 const LunchMenu = styled.div`
+  /* iPhone 5 responsive */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  }
+
+  /* iPhone 8 plus responsive */
+  @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  }
+
   .lunch-button {
     display: inline-block;
     width: 200px;
@@ -137,6 +154,12 @@ const LunchMenu = styled.div`
     width: 140px;
     margin: 2px 3px;
     border-radius: 3px;
+
+    /* iPhone 5 responsive */
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+      width: 115px;
+      height: 50px;
+    }
 
     :hover,
     :active {
@@ -163,6 +186,13 @@ const DinnerMenu = styled.div`
     margin: 2px 3px;
     border-radius: 3px;
 
+     /* iPhone 5 responsive */
+     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+      width: 115px;
+      height: 50px;
+    }
+
+
     :hover,
     :active {
       background-color: #fff;
@@ -173,7 +203,7 @@ const DinnerMenu = styled.div`
 
 const Home = () => {
   return (
-    <div id='home'>
+    <div id="home">
       <HomePage>
         {/* <div className="nav-background"></div> */}
         <HomeGreeting>

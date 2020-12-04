@@ -44,6 +44,7 @@ const H6 = styled.div`
   margin-bottom: 15px !important;
   @media (max-width: 812px) {
     width: 100%;
+    display: none;
   }
 `;
 

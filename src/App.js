@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import styled from "styled-components";
 import Footer from "./Components/Footer/Footer";
 import Images from "../src/Images/taste.logo.jpg";
+import PopUp from "./Components/PopUp/PopUp";
 
 const TasteLogo = styled.img`
   height: 62px;
@@ -43,10 +44,11 @@ function App() {
       <Router>
         <div className="logoNav">
           <div className="logo-side">
-            <Link to="/">
+            {/* <Link to="/">
               {" "}
               <TasteLogo src={Images}></TasteLogo>{" "}
-            </Link>
+            </Link> */}
+            <PopUp />
           </div>
           <div className="link-side">
             <Navigation />
