@@ -6,16 +6,20 @@ import { Link } from "react-router-dom";
 import PopUp from "../PopUp/PopUp";
 
 const NavMain = styled.div`
-  .nav-active { /* home active */
-    /* background-color: rgba(207, 31, 37, 0.9); */
+  .nav-active {
+    /* home active */
+    background-color: rgba(207, 31, 37, 0.9);
 
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
       /* color: rgba(207, 31, 37, 0.9) !important; */
     }
   }
 
+
+
+                                /* background for  link divs */
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-    .navbar-nav { /* background for  link divs */
+    .navbar-nav {
       /* border: 1px solid white; */
       margin-top: 70px;
     }
@@ -29,18 +33,21 @@ const NavMain = styled.div`
   }
 
   @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-    .navbar-nav {
-      /* height: 660px !important;
-      margin-top: 50px; */
+    .navbar-nav { 
+      /* iphone 8 plus responsive */
+      padding-right: 103px !important;
     }
   }
 
-  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
     .navbar-nav {
       /* background: rgba(207, 31, 37, 0.9) !important; */ /* whole link div */
-     /*  height: 692px; */
+      width: 100% !important;
+      padding-left: 120px;
     }
   }
+
+                              /* background for  link divs end */
 
   /* Scroll down background on responsive */
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
@@ -81,10 +88,7 @@ const NavMain = styled.div`
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     .navbar-collapse {
       /* Iphone X responsive */
-    
-      margin-right: -21px;
-      padding-top: 120px;
-      margin-left: -120px !important;
+
       height: 813px;
       z-index: 1;
     }
@@ -155,6 +159,7 @@ const NavMain = styled.div`
     /* responsive nav-link individual link divs */
     /* height: 115px !important; */
     padding: 15px;
+    height: 84px;
     /* padding-top: 70px;
     margin-top: 2px; */
 
