@@ -6,44 +6,43 @@ import { Link } from "react-router-dom";
 import PopUp from "../PopUp/PopUp";
 
 const NavMain = styled.div`
-  .nav-active {
-    /* home active */
-    background-color: rgba(207, 31, 37, 0.9);
+  .nav-active { /* home active */
+    /* background-color: rgba(207, 31, 37, 0.9); */
 
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-      color: rgba(207, 31, 37, 0.9) !important;
+      /* color: rgba(207, 31, 37, 0.9) !important; */
     }
   }
 
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-    .navbar-nav {
-      /* background from link divs */
-      background: rgba(207, 31, 37, 0.9) !important;
-      margin-top: 50px;
+    .navbar-nav { /* background for  link divs */
+      /* border: 1px solid white; */
+      margin-top: 70px;
     }
   }
 
-  @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .navbar-nav {
-      height: 660px !important;
-      margin-top: 50px;
+      /* height: 660px !important;
+      margin-top: 50px; */
     }
   }
 
   @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
     .navbar-nav {
-      height: 660px !important;
-      margin-top: 50px;
+      /* height: 660px !important;
+      margin-top: 50px; */
     }
   }
 
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     .navbar-nav {
-      background: rgba(207, 31, 37, 0.9) !important; /* whole link div */
-      height: 692px;
+      /* background: rgba(207, 31, 37, 0.9) !important; */ /* whole link div */
+     /*  height: 692px; */
     }
   }
 
+  /* Scroll down background on responsive */
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
     .navbar-collapse {
       /* Iphone 5 responsive */
@@ -56,26 +55,21 @@ const NavMain = styled.div`
     }
   }
 
-  /* @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
-    
-  } */
-
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
     .navbar-collapse {
       /* Iphone 8 responsive */
-      background-color: rgba(207, 31, 37, 0.9);
       margin-right: -22px;
       padding-top: 110px !important;
-      margin-left: -120px !important;
       height: 738px;
       z-index: 1;
+      margin-left: -121px;
     }
   }
 
   @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
     .navbar-collapse {
       /* Iphone 8 plus responsive */
-      background-color: rgba(207, 31, 37, 0.9);
+
       margin-right: -22px;
       padding-top: 76px;
       margin-left: -125px !important;
@@ -87,7 +81,7 @@ const NavMain = styled.div`
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     .navbar-collapse {
       /* Iphone X responsive */
-      background-color: rgba(207, 31, 37, 0.9);
+    
       margin-right: -21px;
       padding-top: 120px;
       margin-left: -120px !important;
@@ -97,7 +91,7 @@ const NavMain = styled.div`
   }
 
   #links {
-    background: /* pink */ transparent !important;
+    background: transparent !important;
     border-top: 1px solid #a04545;
     border-bottom: 1px solid #a04545;
     margin-top: 0;
@@ -158,11 +152,11 @@ const NavMain = styled.div`
   }
 
   .navbar-light .navbar-nav .nav-link {
-    /* right side nav-link individual div*/
-    height: 115px !important;
+    /* responsive nav-link individual link divs */
+    /* height: 115px !important; */
     padding: 15px;
-    padding-top: 70px;
-    margin-top: 2px;
+    /* padding-top: 70px;
+    margin-top: 2px; */
 
     :hover {
       /* div hover on cursor */
@@ -176,10 +170,10 @@ const NavMain = styled.div`
 
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
       /* Iphone 5 responsive */
-      height: 98px !important;
-      padding: 0;
-      margin: 0;
-      padding-top: 25px;
+      height: 85px !important;
+      width: 145px !important;
+      /* border: 5px solid yellow !important; */
+      margin: auto;
     }
 
     @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
@@ -236,14 +230,14 @@ const NavMain = styled.div`
 
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
       /* Iphone 5 responsive */
-      font-size: 30px;
+      font-size: 25px;
       color: white !important;
-      text-shadow: 1px 1px black;
+      /* text-shadow: 1px 1px black; */
     }
 
     @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
       /* Iphone 8 plus responsive */
-      font-size: 43px;
+      font-size: 35px;
     }
 
     @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
@@ -284,7 +278,7 @@ const NavMain = styled.div`
     .navbar-light .navbar-toggler {
       position: absolute;
       margin-left: 145px;
-      margin-top: -15px;
+      /* margin-top: -15px; */
       z-index: 2;
     }
   }
@@ -327,7 +321,11 @@ const Navigation = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <ReactBooStrap.Nav className="links">
             {/* <PopUp /> */}
-            <ReactBooStrap.Nav.Link eventKey={2} href="/" className="nav-active">
+            <ReactBooStrap.Nav.Link
+              eventKey={2}
+              href="/"
+              className="nav-active"
+            >
               <div className="home-nav">
                 <Link to="/">Home</Link>
               </div>

@@ -5,22 +5,20 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .PopUp {  /* Iphone 5 responsive */
+  .PopUp {
+    /* Iphone 5 responsive */
     margin: auto;
     margin-bottom: -25px;
     margin-top: 0px;
   }
 }
 
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 667px) 
-    and (-webkit-device-pixel-ratio : 2) {
-
-     }
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+}
 
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-  .PopUp { /* Iphone 8 plus responsive */
+  .PopUp {
+    /* Iphone 8 plus responsive */
     margin: auto;
     margin-bottom: -25px !important;
     margin-top: 0px !important;
@@ -28,7 +26,8 @@
 }
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-  .PopUp { /* Iphone X responsive */
+  .PopUp {
+    /* Iphone X responsive */
     margin: auto;
     margin-bottom: -25px !important;
     margin-top: 0px !important;
@@ -37,7 +36,7 @@
 
 .update-button {
   height: 50px !important;
-    width: 130px !important;
+  width: 130px !important;
   padding: 0 !important;
   margin-top: 8px;
   border: none !important;
@@ -49,17 +48,20 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .update-button { /* Iphone 5 responsive */
-    width: 130px !important;
+  .update-button {
+    /* Iphone 5 responsive */
+    width: 90px !important;
     height: 35px !important;
     margin-left: -20px;
     margin-bottom: 30px;
     margin-top: 40px;
+    font-size: 17px !important;
   }
 }
 
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-  .update-button { /* Iphone 8 plus responsive */
+  .update-button {
+    /* Iphone 8 plus responsive */
     width: 170px !important;
     height: 65px !important;
     margin-left: -39px;
@@ -69,7 +71,8 @@
 }
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-  .update-button { /* Iphone X responsive */
+  .update-button {
+    /* Iphone X responsive */
     width: 170px !important;
     height: 65px !important;
     margin-left: -39px;
@@ -102,7 +105,8 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .PopUp {  /* Iphone 5 responsive */
+  .PopUp {
+    /* Iphone 5 responsive */
     margin: auto;
   }
 
