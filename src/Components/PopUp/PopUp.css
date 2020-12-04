@@ -12,6 +12,14 @@
   }
 }
 
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  .PopUp {
+    margin: auto;
+    margin-bottom: -25px !important;
+    margin-top: 0px !important;
+  }
+}
+
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .PopUp {
     margin: auto;
@@ -40,6 +48,16 @@
     margin-left: -20px;
     margin-bottom: 30px;
     margin-top: 40px;
+  }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  .update-button {
+    width: 170px !important;
+    height: 65px !important;
+    margin-left: -39px;
+    margin-bottom: 43px;
+    font-size: 27px !important;
   }
 }
 

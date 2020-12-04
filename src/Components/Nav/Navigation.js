@@ -10,14 +10,24 @@ const NavMain = styled.div`
     background-color: rgba(207, 31, 37, 0.9);
 
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-      /* background: rgba(207, 31, 37, 0.9) !important; */
       color: rgba(207, 31, 37, 0.9) !important;
     }
   }
 
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
     .navbar-nav {
-      background: rgba(207, 31, 37, 0.9) !important; /* whole link div */
+      background: rgba(
+        207,
+        31,
+        37,
+        0.9
+      ) !important; /* background from link divs */
+    }
+  }
+
+  @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+    .navbar-nav {
+      height: 660px !important;
     }
   }
 
@@ -35,6 +45,17 @@ const NavMain = styled.div`
       padding-top: 76px;
       margin-left: -99px;
       height: 568px;
+    }
+  }
+
+  @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+    .navbar-collapse {
+      background-color: rgba(207, 31, 37, 0.9);
+      margin-right: -22px;
+      padding-top: 76px;
+      margin-left: -115px;
+      height: 738px;
+      z-index: 1;
     }
   }
 
@@ -78,7 +99,14 @@ const NavMain = styled.div`
       color: black !important;
       padding-left: 38px !important;
       margin-bottom: 10px !important;
-      background: grey !important;
+      background: #887b7b !important;
+    }
+
+    @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+      margin-top: 0px !important;
+      color: black !important;
+      padding-left: 38px !important;
+      margin-bottom: 10px !important;
     }
   }
 
@@ -86,6 +114,11 @@ const NavMain = styled.div`
     /* dropdown arrow icon */
     color: #ef9c04 !important;
     border: none !important;
+  }
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    #basic-nav-dropdown:hover {
+    }
   }
 
   .drop-down-links a {
@@ -105,9 +138,9 @@ const NavMain = styled.div`
     :hover {
       /* div hover on cursor */
       background: rgba(207, 31, 37, 0.9) !important;
+
       @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
         background: #887b7b !important;
-        color: pink !important;
       }
     }
 
@@ -174,6 +207,11 @@ const NavMain = styled.div`
       color: white !important;
       text-shadow: 1px 1px black;
     }
+
+    @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+      font-size: 43px;
+    }
+
     @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
       font-size: 35px !important;
     }
@@ -214,10 +252,19 @@ const NavMain = styled.div`
     }
   }
 
+  @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+    .navbar-light .navbar-toggler {
+      margin-left: 214px;
+      margin-top: -15px;
+      z-index: 2;
+    }
+  }
+
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     .navbar-light .navbar-toggler {
-      margin-left: 190px !important;
+      margin-left: 175px !important;
       z-index: 2;
+      margin-top: 13px;
     }
   }
 
