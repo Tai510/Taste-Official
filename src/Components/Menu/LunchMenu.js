@@ -4,6 +4,7 @@ import React from 'react';
 const LunchMenu = () => {
     return (
         <div className='menu-app'>
+            <div className='nav-background'></div>
             <div className='menu-title'>
                 <h1>Lunch Special</h1>
                 <h4>- Dine in only -</h4>

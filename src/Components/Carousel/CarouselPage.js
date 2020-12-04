@@ -23,6 +23,7 @@ const CoursalSection = styled.div`
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
     padding-left: 20px !important;
     padding-right: 20px !important;
+    margin-top: 11px !important;
   }
 
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
@@ -38,7 +39,7 @@ const H6 = styled.div`
   width: 290px;
   background: #ebecee;
   margin: auto;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   border-radius: 5px;
   margin-bottom: 15px !important;
   @media (max-width: 812px) {

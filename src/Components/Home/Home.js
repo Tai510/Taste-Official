@@ -1,26 +1,30 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
-import CarouselPage from '../Carousel/CarouselPage';
-
-
+import React from "react";
+import styled from "styled-components";
+import { Link } from "react-router-dom";
+import CarouselPage from "../Carousel/CarouselPage";
 
 const HomePage = styled.div`
-    background-image: url('https://images.unsplash.com/photo-1509359149003-657ef23eaf04?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 690px;
-    padding-top: 200px;
+  background-image: url("https://images.unsplash.com/photo-1509359149003-657ef23eaf04?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 878px;
+  padding-top: 200px;
+  width: 100%;
+  border-bottom: 2px solid white;
+  margin-top: -200px;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    height: 653px !important;
+  }
+
+  @media (max-width: 812px) {
     width: 100%;
-    border-bottom: 2px solid white;
-    @media (max-width: 812px) {
-        width: 100%;
-        height: 387px;
-    }
+    height: 530px !important;
+  }
 `;
 
 const HomeGreeting = styled.div`
-    /* opacity: 0.8; */
+  /* opacity: 0.8; */
 `;
 
 const TitleText1 = styled.div`
@@ -38,7 +42,7 @@ const TitleText1 = styled.div`
     }
     h3{
     font-family: 'Sigmar One', cursive;
-    padding-top: 90px;
+    padding-top: 260px;
     font-weight: bolder !important;
     color: #e8db24;
     text-shadow: 1px 1px black;
@@ -82,7 +86,7 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) { 
     width: 100% !important;
     height: 50px !important;
-    margin-top: -180px;
+    margin-top: -140px;
     h1 {
      font-size: 17px !important;
      height: 50px !important; 
@@ -102,15 +106,23 @@ and (max-device-width : 568px) {
 `;
 
 const ButtonDiv = styled.div`
-    display: flex;
-    justify-content: center;
-    @media (max-width: 812px) {
-        margin-top: 120px;
-    }
+  display: flex;
+  justify-content: center;
+
+  @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+  margin-top: 315px !important;
+}
+
+  @media (max-width: 812px) {
+    margin-top: 370px;
+}
+  }
 `;
 
 const LunchMenu = styled.div`
-   .lunch-button {
+  .lunch-button {
     display: inline-block;
     width: 200px;
     padding-top: 15px;
@@ -126,15 +138,16 @@ const LunchMenu = styled.div`
     margin: 2px 3px;
     border-radius: 3px;
 
-    :hover, :active {
-    background-color: #fff;
-    color: #000;
-}
-}
+    :hover,
+    :active {
+      background-color: #fff;
+      color: #000;
+    }
+  }
 `;
 
 const DinnerMenu = styled.div`
-    .dinner-button {
+  .dinner-button {
     display: inline-block;
     width: 200px;
     padding-top: 15px;
@@ -150,44 +163,44 @@ const DinnerMenu = styled.div`
     margin: 2px 3px;
     border-radius: 3px;
 
-    :hover, :active {
-    background-color: #fff;
-    color: #000;
-}
-}
+    :hover,
+    :active {
+      background-color: #fff;
+      color: #000;
+    }
+  }
 `;
 
 const Home = () => {
-    return (
-        <div>
-            <HomePage>
+  return (
+    <div>
+      <HomePage>
+        {/* <div className="nav-background"></div> */}
+        <HomeGreeting>
+          <TitleText1>
+            <h3>Welcome to</h3>
+            <h1>TASTE OF THE HIMALAYAS</h1>
+            <p>TRADITIONAL NEPALESE, TIBETAN & INDIAN DISHES.</p>
+          </TitleText1>
+        </HomeGreeting>
 
-                <HomeGreeting>
-                    <TitleText1>
-                        <h3>Welcome to</h3>
-                        <h1>TASTE OF THE HIMALAYAS</h1>
-                        <p>TRADITIONAL NEPALESE, TIBETAN & INDIAN DISHES.</p>
-                    </TitleText1>
-                </HomeGreeting>
+        <ButtonDiv>
+          <Link to="/lunch-menu">
+            <LunchMenu>
+              <span class="lunch-button">LUNCH MENU</span>
+            </LunchMenu>
+          </Link>
 
-                <ButtonDiv>
-                    <Link to='/lunch-menu'>
-                        <LunchMenu>
-                        <span class="lunch-button">LUNCH MENU</span>
-                        </LunchMenu>
-                    </Link>
-
-                    <Link to='/dinner-menu'>
-                        <DinnerMenu>
-                            <span class="dinner-button">DINNER MENU</span>
-                        </DinnerMenu>
-                    </Link>
-                </ButtonDiv>
-
-            </HomePage>
-            <CarouselPage />
-        </div>
-    )
-}
+          <Link to="/dinner-menu">
+            <DinnerMenu>
+              <span class="dinner-button">DINNER MENU</span>
+            </DinnerMenu>
+          </Link>
+        </ButtonDiv>
+      </HomePage>
+      <CarouselPage />
+    </div>
+  );
+};
 
 export default Home;

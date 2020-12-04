@@ -4,6 +4,7 @@ import './Wine.css'
 const WineList = () => {
     return (
         <div className='menu-app'>
+            <div className='nav-background'></div>
             <div className='menu-title'>
                 <h1>Wine List</h1>
                 <p>( Corkage    $10 )</p>

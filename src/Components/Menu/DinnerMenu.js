@@ -5,6 +5,7 @@ import './Menu.css'
 const DinnerMenu = () => {
     return (
         <div className='menu-app'>
+            <div className='nav-background'></div>
             <div className='menu-title'>
                 <h1>Dinner Menu</h1>
                 <p>We also serve vegan entrée. Ask for detail.</p>

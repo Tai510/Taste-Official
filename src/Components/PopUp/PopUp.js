@@ -11,7 +11,7 @@ function PopUp() {
 
   return (
     <div className="PopUp">
-      <Button variant="primary" onClick={handleShow}>
+      <Button outline='none' className='update-button' variant="primary" onClick={handleShow}>
         Covid Updates
       </Button>
 

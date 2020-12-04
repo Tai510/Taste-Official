@@ -13,19 +13,22 @@ import Footer from "./Components/Footer/Footer";
 import Images from "../src/Images/taste.logo.jpg";
 
 const TasteLogo = styled.img`
-  height: 100px;
+  height: 62px;
+  width: 149px;
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-    height: 56px;
+    height: 40px;
     margin: auto;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: -1px;
+    margin-top: -22px;
+    width: 80px;
   }
 
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-    height: 70px;
+    height: 40px;
     margin: auto;
-    margin-left: 10px;
     margin-top: 10px;
+    width: 110px;
+    margin-left: 0 !important;
   }
 `;
 
@@ -38,12 +41,16 @@ function App() {
   return (
     <Main className="App">
       <Router>
-        <div>
-          <Link to="/">
-            {" "}
-            <TasteLogo src={Images}></TasteLogo>{" "}
-          </Link>
-          <Navigation />
+        <div className="logoNav">
+          <div className="logo-side">
+            <Link to="/">
+              {" "}
+              <TasteLogo src={Images}></TasteLogo>{" "}
+            </Link>
+          </div>
+          <div className="link-side">
+            <Navigation />
+          </div>
         </div>
         <Route exact path="/" component={Home} />
         <Route path="/lunch-menu" component={LunchMenu} />

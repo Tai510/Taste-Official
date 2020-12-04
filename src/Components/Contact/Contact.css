@@ -254,4 +254,15 @@
   .form-div {
     margin: 0 10px;
   }
+
+  #contact-title h1 {
+    font-size: 45px !important;
+    padding-top: 35px !important;
+  }
 }
+
+#contact-title {
+  font-family: 'Oswald', sans-serif;
+}
+
+

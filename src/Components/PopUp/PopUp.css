@@ -1,40 +1,96 @@
 .PopUp {
-    width: 165px;
-    margin-top: 4px;
-    margin-bottom: 2px;
+  width: 100px;
+  margin-top: 4px;
+  margin-bottom: 2px;
 }
 
-.pop-title  span {
-    font-size: 38px !important ;
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .PopUp {
+    margin: auto;
+    margin-bottom: -25px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .PopUp {
+    margin: auto;
+    margin-bottom: -25px !important;
+    margin-top: 0px !important;
+  }
+}
+
+.update-button {
+  height: 95px !important;
+  width: 99px !important;
+  padding: 0 !important;
+  margin-top: 8px;
+  border: none !important;
+  border-radius: 0 !important;
+  font-weight: bolder !important;
+  font-size: 23px !important;
+  font-family: "Barlow Condensed", sans-serif !important;
+  outline: none !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .update-button {
+    width: 130px !important;
+    height: 35px !important;
+    margin-left: -20px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .update-button {
+    width: 170px !important;
+    height: 65px !important;
+    margin-left: -39px;
+    margin-bottom: 43px;
+    font-size: 27px !important;
+  }
+}
+
+.update-button:hover {
+  outline: none !important;
+}
+
+.pop-title span {
+  font-size: 38px !important ;
 }
 
 .pop-title {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: bolder !important;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bolder !important;
 }
 
 .pop-body {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bolder !important;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bolder !important;
 }
 
 .pop-body span {
-    font-size: 17px;
-    margin-right: 15px;
+  font-size: 17px;
+  margin-right: 15px;
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) {
-    .PopUp {
-        margin: auto;
-    }
-    
-    .pop-close-footer {
-        padding: 9px !important;
-    }
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .PopUp {
+    margin: auto;
+  }
 
-    .pop-body {
-        padding: 7px !important;
-    }
- }
+  .pop-close-footer {
+    padding: 9px !important;
+  }
+
+  .pop-body {
+    padding: 7px !important;
+  }
+}
+
+.btn:focus {
+  outline: none;
+  cursor: pointer;
+}

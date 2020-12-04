@@ -17,20 +17,6 @@
     margin-top: -54px;
 }
 
-/* .menu-image {
-    background: white;
-    padding-bottom: 10px;
-}
-
-.menu-image img {
-    border-radius: 5px;
-    margin-top: 20px;
-    width: 50%;
-    box-shadow: 0px 30px 20px rgba(84, 86, 87, 1);
-    margin-bottom: 50px;
-    height: 255px;
-} */
-
 .wine-image {
     background: white;
     padding-bottom: 10px;
@@ -49,6 +35,16 @@
     background: white;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    padding: 30px 0;
+    height: 220px;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+    .menu-title {
+        height: 260px;
+    }
 }
 
 .menu-title i {
@@ -69,6 +65,7 @@
 .menu-title p {
     font-weight: bolder;
     color: black;
+    font-size: 21px;
 }
 
 .categories {

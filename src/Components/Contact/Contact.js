@@ -10,9 +10,9 @@ const ContactPage = styled.div`
 const Space = styled.div`
   margin: 0;
   background: #252934;
-  margin-top: -60px;
-  padding-top: 60px;
+  padding-top: 20px;
   height: 100%;
+  border-top: 1px solid black;
 `;
 
 const ContactTop = styled.div`
@@ -32,6 +32,7 @@ const ContactTop = styled.div`
     color: white;
     font-family: "Oswald", sans-serif;
     font-weight: bolder;
+    font-size: 20px;
   }
   a {
     color: white;
@@ -53,7 +54,8 @@ const TopAdd = styled.div`
     color: white;
     font-family: "Oswald", sans-serif;
     margin: 0;
-    text-decoration: underline;
+    letter-spacing: 1px;
+    font-size: 16px;
   }
 `;
 
@@ -85,11 +87,16 @@ const TopButton = styled.div`
 
 const Contact = () => {
   return (
-    <ContactPage>
+    <div>
+      <div className="nav-background"></div>
+      <div id="contact-title" className="menu-title">
+        <h1>We'd love to hear from you!</h1>
+        <p>Your feedback is important to us!</p>
+      </div>
       <Space>
         <ContactTop>
-          <h1>We'd love to hear from you!</h1>
-          <h2>Taste of the Himalayas</h2>
+          <h1>Taste of the Himalayas</h1>
+          {/* <h2>Taste of the Himalayas</h2> */}
           <p>Downtown Sonoma</p>
           <TopAdd>
             <p>464 1st St E</p>
@@ -147,7 +154,7 @@ const Contact = () => {
           </p>
         </div>
       </div>
-    </ContactPage>
+    </div>
   );
 };
 

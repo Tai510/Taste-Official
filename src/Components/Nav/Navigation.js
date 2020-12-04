@@ -6,10 +6,55 @@ import { Link } from "react-router-dom";
 import PopUp from "../PopUp/PopUp";
 
 const NavMain = styled.div`
+  .nav-active {
+    background-color: rgba(207, 31, 37, 0.9);
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+      /* background: rgba(207, 31, 37, 0.9) !important; */
+      color: rgba(207, 31, 37, 0.9) !important;
+    }
+  }
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    .navbar-nav {
+      background: rgba(207, 31, 37, 0.9) !important; /* whole link div */
+    }
+  }
+
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .navbar-nav {
+      background: rgba(207, 31, 37, 0.9) !important; /* whole link div */
+      height: 692px;
+    }
+  }
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    .navbar-collapse {
+      background-color: rgba(207, 31, 37, 0.9);
+      margin-right: -17px;
+      padding-top: 76px;
+      margin-left: -99px;
+      height: 568px;
+    }
+  }
+
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .navbar-collapse {
+      background-color: rgba(207, 31, 37, 0.9);
+      margin-right: -21px;
+      padding-top: 120px;
+      margin-left: -132px;
+      height: 813px;
+      z-index: 1;
+    }
+  }
+
   #links {
-    background: #a04545 !important;
+    background: /* pink */ transparent !important;
     border-top: 1px solid #a04545;
     border-bottom: 1px solid #a04545;
+    margin-top: 0;
+    height: 117px !important;
   }
 
   .modal-footer {
@@ -17,34 +62,83 @@ const NavMain = styled.div`
   }
 
   .dropdown-item:hover {
-    background: #a04545 !important;
+    background-color: rgba(207, 31, 37, 0.9);
   }
 
   .dropdown-menu {
     padding: 0 !important;
-    background: #a04545 !important;
-    border-top: 1px solid #a04545;
     border-radius: 0;
     text-align: center !important;
+    background: rgba(207, 31, 37, 0.9) !important;
+    margin-left: -36px !important;
+    border: none !important;
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+      margin-top: -20px !important;
+      color: black !important;
+      padding-left: 38px !important;
+      margin-bottom: 10px !important;
+      background: grey !important;
+    }
   }
 
   #basic-nav-dropdown:hover {
-    color: rgb(111, 179, 77) !important;
+    /* dropdown arrow icon */
+    color: #ef9c04 !important;
+    border: none !important;
   }
 
   .drop-down-links a {
+    /* dropdown links on menu */
     color: white !important;
+    text-shadow: 1px 1px black;
+    /* border: 5px solid yellow !important; */
   }
 
   .navbar-light .navbar-nav .nav-link {
-    margin: 0 50px;
+    /* right side nav-link individual div*/
+    height: 115px !important;
+    padding: 15px;
+    padding-top: 70px;
+    margin-top: 2px;
+
+    :hover {
+      /* div hover on cursor */
+      background: rgba(207, 31, 37, 0.9) !important;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+        background: #887b7b !important;
+        color: pink !important;
+      }
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+      height: 98px !important;
+      padding: 0;
+      margin: 0;
+      padding-top: 25px;
+    }
+
+    @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+      height: 90px !important;
+      padding: 0;
+      margin: 0;
+      padding-top: 22px;
+    }
+  }
+
+  .nav-link:hover {
+    background: rgba(207, 31, 37, 0.9) !important;
+    cursor: pointer !important;
   }
 
   .bg-light {
-    background-color: white !important;
-    border-top: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
+    /* the div holding the the div with the links */
+    background-color: transparent !important;
+    border-top: transparent !important;
+    border-bottom: transparent !important;
     padding: 0;
+    margin-top: 10px !important;
+    height: 127px !important;
   }
 
   .navbar-light .navbar-toggler {
@@ -67,21 +161,27 @@ const NavMain = styled.div`
   }
 
   a {
+    /* links styling */
     color: white !important;
     text-decoration: none !important;
     font-weight: bolder !important;
-    font-size: 20px;
+    font-size: 23px;
     font-family: "Barlow Condensed", sans-serif !important;
+    border: transparent !important;
 
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-      font-size: 20px;
+      font-size: 30px;
+      color: white !important;
+      text-shadow: 1px 1px black;
     }
     @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-      font-size: 22px;
+      font-size: 35px !important;
     }
     a:hover {
-      color: rgb(111, 179, 77) !important;
+      color: #ef9c04 !important;
       text-decoration: none !important;
+      height: 131px;
+      width: 100px;
     }
   }
 
@@ -108,7 +208,16 @@ const NavMain = styled.div`
       padding: 0 !important;
     }
     .navbar-light .navbar-toggler {
-      margin-left: 20px;
+      position: absolute;
+      margin-left: 170px;
+      margin-top: -15px;
+    }
+  }
+
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .navbar-light .navbar-toggler {
+      margin-left: 190px !important;
+      z-index: 2;
     }
   }
 
@@ -131,7 +240,7 @@ const Navigation = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <ReactBooStrap.Nav className="links">
             <PopUp />
-            <ReactBooStrap.Nav.Link>
+            <ReactBooStrap.Nav.Link className="nav-active">
               <p className="home-nav">
                 <Link to="/">Home</Link>
               </p>
