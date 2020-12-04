@@ -15,19 +15,26 @@ const NavMain = styled.div`
   }
 
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-    .navbar-nav {
-      background: rgba(
-        207,
-        31,
-        37,
-        0.9
-      ) !important; /* background from link divs */
+    .navbar-nav { /* background from link divs */
+      background: rgba(207, 31, 37, 0.9) !important;
+      margin-top: 50px;
     }
   }
+
+  @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) {
+      .navbar-nav {
+      height: 660px !important;
+      margin-top: 50px;
+    }
+     }
 
   @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
     .navbar-nav {
       height: 660px !important;
+      margin-top: 50px;
     }
   }
 
@@ -43,7 +50,7 @@ const NavMain = styled.div`
       /* Iphone 5 responsive */
       background-color: rgba(207, 31, 37, 0.9);
       margin-right: -17px;
-      padding-top: 76px;
+      padding-top: 60px;
       margin-left: -117px;
       height: 575px;
       z-index: 1;
@@ -61,7 +68,7 @@ const NavMain = styled.div`
     .navbar-collapse { /* Iphone 8 responsive */
       background-color: rgba(207, 31, 37, 0.9);
       margin-right: -22px;
-      padding-top: 76px;
+      padding-top: 110px !important;
       margin-left: -120px !important;
       height: 738px;
       z-index: 1;
@@ -122,7 +129,7 @@ const NavMain = styled.div`
       color: black !important;
       padding-left: 38px !important;
       margin-bottom: 10px !important;
-      background: #887b7b !important;
+      background: #c7c5c5 !important;
     }
 
     @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
@@ -149,6 +156,7 @@ const NavMain = styled.div`
   .drop-down-links a {
     /* dropdown links on menu */
     color: white !important;
+    font-size: 25px;
     /* border: 5px solid yellow !important; */
   }
 
@@ -165,7 +173,7 @@ const NavMain = styled.div`
 
       @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
         /* Iphone 5 responsive */
-        background: #887b7b !important;
+        background: #c7c5c5 !important;
       }
     }
 
