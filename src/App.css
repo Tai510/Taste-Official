@@ -6,7 +6,7 @@
 and (min-device-width : 320px) 
 and (max-device-width : 568px) { 
   .link-side {
-    height: 110px;
+    height: 100px;
   }
 }
 

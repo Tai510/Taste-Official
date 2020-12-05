@@ -38,7 +38,7 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   .Navbar-Main .navbar-light .navbar-nav .nav-link {
-    width: 325px;
+    width: 100%;
     padding: 0;
     /* border: 1px solid; */
     height: 70px;
@@ -91,11 +91,39 @@
   }
 }
 
-/* the toggle icon style */
+/* the Humburger icon style */
 .Navbar-Main .navbar-light .navbar-toggler {
   background: rgb(153, 155, 153) !important;
   outline: none !important;
-  z-index: 1;
+  z-index: 0;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .Navbar-Main .navbar-light .navbar-toggler {
+    margin-top: -45px;
+    margin-left: 255px;
+    /* background: green !important; */
+    color: white !important;
+    padding: 5px;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  .Navbar-Main .navbar-light .navbar-toggler {
+    margin-left: 300px;
+  }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  .Navbar-Main .navbar-light .navbar-toggler {
+    margin-left: 320px;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .Navbar-Main .navbar-light .navbar-toggler {
+    margin-left: 305px;
+  }
 }
 
 .Navbar-Main .navbar-nav {
@@ -120,18 +148,18 @@
   .Navbar-Main .navbar-nav {
     background: #c71b1a;
     margin-top: -85px;
-    padding-top: 100px;
+    padding-top: 135px;
     padding-bottom: 70px;
+    height: 580px;
   }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .Navbar-Main .navbar-light .navbar-toggler {
-    margin-top: -90px;
-    margin-left: 20px;
-    background: green;
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  .Navbar-Main .navbar-nav {
+    height: 680px;
   }
 }
+
 /* the toggle icon style end */
 
 /* dropdown on menu responsive styling */
