@@ -36,15 +36,16 @@
 
 .update-button {
   /* pop up button */
+
   height: 50px !important;
-  width: 130px !important;
+  width: 140px !important;
   padding: 0 !important;
   margin-top: 40px;
   border: none !important;
-  border-radius: 0 !important;
+  border-radius: 20px !important;
   font-weight: bolder !important;
-  font-size: 23px !important;
-  font-family: "Barlow Condensed", sans-serif !important;
+  font-size: 20px !important;
+  font-family: "Oswald", sans-serif;
   outline: none !important;
   background: #f1443b !important;
 }

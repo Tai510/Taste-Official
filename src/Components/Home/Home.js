@@ -13,6 +13,9 @@ const HomePage = styled.div`
   border-bottom: 2px solid white;
   margin-top: -200px;
 
+
+
+  /* homepage background media queries */
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
     /* Iphone 5 responsive */
     height: 655px !important;
@@ -25,10 +28,9 @@ const HomePage = styled.div`
   }
 
   @media (max-width: 812px) {
-    /* Iphone 8 plus responsive */ /* homepage background */
-    /* width: 100%;
-    height: 510px !important;
-    padding-top: 180px; */
+    /* Iphone 8 plus responsive */ 
+
+    height: 890px !important;
   }
 `;
 
