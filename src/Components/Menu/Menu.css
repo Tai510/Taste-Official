@@ -33,15 +33,15 @@
 
 .menu-title {
   background: white;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  padding: 30px 0;
+  border-top: 20px solid #3e3c3c;
+  border-bottom: 20px solid #3e3c3c;
+  padding: 5px 0;
   height: 220px;
 }
 
 .menu-title a {
-    text-decoration: none !important;
-    color: rgb(41, 77, 194);
+  text-decoration: none !important;
+  color: rgb(41, 77, 194);
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
