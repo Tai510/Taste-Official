@@ -6,48 +6,48 @@ import { Link } from "react-router-dom";
 import PopUp from "../PopUp/PopUp";
 
 const NavMain = styled.div`
-  .nav-active {
-    /* home active */
-    background-color: rgba(207, 31, 37, 0.9);
-
-    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-      /* color: rgba(207, 31, 37, 0.9) !important; */
-    }
+  .dropdown-item.active {
+    background: transparent !important;
   }
 
-
-
-                                /* background for  link divs */
+  
+  /* background for  link divs */
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
     .navbar-nav {
       /* border: 1px solid white; */
       margin-top: 70px;
+      /* background: pink; */
     }
   }
 
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .navbar-nav {
-      /* height: 660px !important;
-      margin-top: 50px; */
+      margin-top: 70px;
+      /* background: #00a1ff; */
     }
   }
 
   @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-    .navbar-nav { 
+    .navbar-nav {
       /* iphone 8 plus responsive */
-      padding-right: 103px !important;
+
+      margin-top: 70px;
+      /* background: purple !important; */
+      padding-right: 110px !important;
     }
   }
 
   @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
     .navbar-nav {
-      /* background: rgba(207, 31, 37, 0.9) !important; */ /* whole link div */
-      width: 100% !important;
-      padding-left: 120px;
+      /* Iphone X responsive */
+
+      margin-top: 70px;
+      /* background: orange; */
+      padding-right: 0px !important;
     }
   }
 
-                              /* background for  link divs end */
+  /* background for  link divs end */
 
   /* Scroll down background on responsive */
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
@@ -57,7 +57,7 @@ const NavMain = styled.div`
       margin-right: -17px;
       padding-top: 60px;
       margin-left: -117px;
-      height: 575px;
+      height: 600px;
       z-index: 1;
     }
   }
@@ -89,7 +89,7 @@ const NavMain = styled.div`
     .navbar-collapse {
       /* Iphone X responsive */
 
-      height: 813px;
+      height: 845px;
       z-index: 1;
     }
   }
@@ -110,13 +110,14 @@ const NavMain = styled.div`
     background-color: rgba(207, 31, 37, 0.9);
   }
 
-  .dropdown-menu {
+  .dropdown-menu {   /* drop down background  */
     padding: 0 !important;
     border-radius: 0;
     text-align: center !important;
-    background: rgba(207, 31, 37, 0.9) !important;
+    background-color: rgb(228 37 37);
     margin-left: -36px !important;
     border: none !important;
+    margin-top: -16px !important;
 
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
       /* Iphone 5 responsive */
@@ -124,7 +125,7 @@ const NavMain = styled.div`
       color: black !important;
       padding-left: 38px !important;
       margin-bottom: 10px !important;
-      background: #c7c5c5 !important;
+      background-color: rgb(228 37 37);
     }
 
     @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
@@ -159,24 +160,24 @@ const NavMain = styled.div`
     /* responsive nav-link individual link divs */
     /* height: 115px !important; */
     padding: 15px;
-    height: 84px;
+    height: 107px;
     /* padding-top: 70px;
     margin-top: 2px; */
 
-    :hover {
-      /* div hover on cursor */
-      background: rgba(207, 31, 37, 0.9) !important;
+    :hover { /*  on desktop div hover on cursor */
+      background-color: rgb(228 37 37);
+      cursor: pointer !important;
 
       @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
         /* Iphone 5 responsive */
-        background: #c7c5c5 !important;
+        background: #ff3333 !important;
       }
     }
 
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
       /* Iphone 5 responsive */
-      height: 85px !important;
-      width: 145px !important;
+      height: 70px !important;
+      width: 100% !important;
       /* border: 5px solid yellow !important; */
       margin: auto;
     }
@@ -190,13 +191,9 @@ const NavMain = styled.div`
     }
   }
 
-  .nav-link:hover {
-    background: rgba(207, 31, 37, 0.9) !important;
-    cursor: pointer !important;
-  }
-
   .bg-light {
     /* the div holding the the div with the links */
+   
     background-color: transparent !important;
     border-top: transparent !important;
     border-bottom: transparent !important;
@@ -237,17 +234,18 @@ const NavMain = styled.div`
       /* Iphone 5 responsive */
       font-size: 25px;
       color: white !important;
+      padding-top: 16px !important;
       /* text-shadow: 1px 1px black; */
     }
 
     @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
       /* Iphone 8 plus responsive */
-      font-size: 35px;
+      font-size: 30px;
     }
 
     @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
       /* Iphone X responsive */
-      font-size: 35px !important;
+      font-size: 30px !important;
     }
     a:hover {
       color: white !important;
