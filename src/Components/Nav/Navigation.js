@@ -11,18 +11,23 @@ const NavMain = styled.div`
   }
 
   
-  /* background for  link divs */
+                    /* background for  link divs */
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
     .navbar-nav {
-      /* border: 1px solid white; */
-      margin-top: 70px;
-      /* background: pink; */
+    margin-top: 100px;
+    border: 1px solid white;
+    position: absolute;
+    background: black;
+    right: -17px;
+
+    width: 321px;
+
     }
   }
 
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .navbar-nav {
-      margin-top: 70px;
+      /* margin-top: 70px; */
       /* background: #00a1ff; */
     }
   }
@@ -31,9 +36,9 @@ const NavMain = styled.div`
     .navbar-nav {
       /* iphone 8 plus responsive */
 
-      margin-top: 70px;
+      /* margin-top: 70px; */
       /* background: purple !important; */
-      padding-right: 110px !important;
+      /* padding-right: 110px !important; */
     }
   }
 
@@ -41,9 +46,9 @@ const NavMain = styled.div`
     .navbar-nav {
       /* Iphone X responsive */
 
-      margin-top: 70px;
+      /* margin-top: 70px; */
       /* background: orange; */
-      padding-right: 0px !important;
+      /* padding-right: 0px !important; */
     }
   }
 
@@ -53,25 +58,22 @@ const NavMain = styled.div`
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
     .navbar-collapse {
       /* Iphone 5 responsive */
-      background-color: rgba(207, 31, 37, 0.9);
+      background-color: #b74040;
       margin-right: -17px;
-      padding-top: 60px;
       margin-left: -117px;
       height: 600px;
       z-index: 1;
-      margin-top: 90px;
     }
   }
 
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
     .navbar-collapse {
       /* Iphone 8 responsive */
-      margin-right: -22px;
+   
+      /* margin-right: -22px;
       padding-top: 110px !important;
       height: 615px;
-      z-index: 1;
-      margin-left: -121px;
-      margin-top: 90px;
+      margin-left: -121px; */
     }
   }
 
@@ -79,11 +81,10 @@ const NavMain = styled.div`
     .navbar-collapse {
       /* Iphone 8 plus responsive */
 
-      margin-right: -22px;
+      /* margin-right: -22px;
       padding-top: 76px;
       margin-left: -125px !important;
-      height: 738px;
-      z-index: 1;
+      height: 738px;  */
     }
   }
 
@@ -91,8 +92,8 @@ const NavMain = styled.div`
     .navbar-collapse {
       /* Iphone X responsive */
 
-      height: 845px;
-      z-index: 1;
+      /* height: 845px;
+      z-index: 1; */
     }
   }
 

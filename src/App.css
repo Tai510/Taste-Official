@@ -16,7 +16,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   .nav-background {
     height: 90px;
-    background-color: rgba(207, 31, 37, 0.9) !important;
+    background-color: #b74040 !important;
   }
 }
 
