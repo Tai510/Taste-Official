@@ -1,0 +1,91 @@
+/* the whole navbar css */
+.Navbar-Main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 90px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  /*  Iphone 5 responsive */
+  .Navbar-Main {
+    display: inline;
+  }
+}
+/* the whole navbar css end */
+
+/* Desktop background color on navbar */
+.Navbar-Main .bg-light {
+  background: transparent !important;
+  padding: 0;
+}
+/* Desktop background color on navbar end */
+
+/* Link tag with arrow divs */
+.Navbar-Main .navbar-light .navbar-nav .nav-link {
+  color: white !important;
+  /* border: 1px solid red; */
+  width: 120px;
+  height: 145px;
+  background: transparent;
+  padding-top: 95px;
+}
+
+.Navbar-Main .navbar-light .navbar-nav .nav-link:hover {
+  background: rgb(179, 29, 54);
+  color: white !important;
+  outline: none;
+}
+/* Link tag with arrow divs end */
+
+/* hover link a tags style */
+.Navbar-Main a {
+  text-decoration: none !important;
+}
+
+.Navbar-Main a:hover {
+  color: white;
+}
+/* hover link a tags style end */
+
+/* all link a tags */
+.Navbar-Main a {
+  color: white;
+  font-size: 19px;
+}
+/* all link a tags end */
+
+/* dropdown on menu a tag styling */
+.Navbar-Main .dropdown-item:hover {
+  background: rgb(207, 98, 78);
+  color: purple !important;
+}
+
+.Navbar-Main .dropdown-item.active,
+.dropdown-item:active {
+  background: rgb(179, 29, 54);
+}
+/* dropdown on menu a tag styling end */
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    background: rgb(179, 29, 54);
+    border: none;
+    border-radius: 1px;
+    margin-left: -20px !important;
+  }
+}
+
+/* the toggle icon style */
+.Navbar-Main .navbar-light .navbar-toggler {
+    background: rgb(153, 155, 153) !important;
+    outline: none !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .Navbar-Main .navbar-light .navbar-toggler {
+    margin-top: -90px;
+    margin-left: 20px;
+  }
+}
+/* the toggle icon style end */

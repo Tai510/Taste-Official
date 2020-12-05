@@ -4,12 +4,12 @@ import styled from "styled-components";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import PopUp from "../PopUp/PopUp";
-
-
+import "./Navbar.css";
 
 const Navigation = () => {
   return (
-    <div>
+    <div className="Navbar-Main">
+      <PopUp />
       <Navbar data-toggle="collapse" bg="light" expand="lg">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
