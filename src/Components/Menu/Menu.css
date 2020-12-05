@@ -42,6 +42,8 @@
 .menu-title a {
   text-decoration: none !important;
   color: rgb(41, 77, 194);
+  margin-left: 5px;
+  font-size: 17px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
