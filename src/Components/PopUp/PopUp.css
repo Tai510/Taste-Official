@@ -39,7 +39,7 @@
   height: 50px !important;
   width: 130px !important;
   padding: 0 !important;
-  margin-top: 8px;
+  margin-top: 40px;
   border: none !important;
   border-radius: 0 !important;
   font-weight: bolder !important;
@@ -60,6 +60,7 @@
     margin-left: -200px !important;
     position: relative;
     padding-left: 15px !important;
+    margin-top: 10px !important;
   }
 }
 
