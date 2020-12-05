@@ -14,7 +14,9 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <ReactBooStrap.Nav className="links">
-            {/* <PopUp /> */}
+            {/* <div className="pop-up-Link">
+              <PopUp />
+            </div> */}
             <ReactBooStrap.Nav.Link
               eventKey={2}
               href="/"

@@ -1,15 +1,15 @@
 .PopUp {
-  width: 100px;
+  /* width: 100px;
   margin-top: 4px;
-  margin-bottom: 2px;
+  margin-bottom: 2px; */
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   .PopUp {
     /* Iphone 5 responsive */
-    margin: auto;
+    /* margin: auto;
     margin-bottom: -25px;
-    margin-top: 0px;
+    margin-top: 0px; */
   }
 }
 
@@ -19,18 +19,18 @@
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
   .PopUp {
     /* Iphone 8 plus responsive */
-    margin: auto;
+    /* margin: auto;
     margin-bottom: -25px !important;
-    margin-top: 0px !important;
+    margin-top: 0px !important; */
   }
 }
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .PopUp {
     /* Iphone X responsive */
-    margin: auto;
+    /* margin: auto;
     margin-bottom: -25px !important;
-    margin-top: 0px !important;
+    margin-top: 0px !important; */
   }
 }
 
@@ -48,16 +48,13 @@
   outline: none !important;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  .update-button {
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .update-button {
     /* Iphone 5 responsive */
-
-    width: 105px !important;
-    height: 35px !important;
-    margin-left: 0px;
-    margin-bottom: 30px;
-    margin-top: 40px;
-    font-size: 17px !important;
   }
 }
 
@@ -65,11 +62,12 @@
   .update-button {
     /* pop up button */
     /* Iphone 8 plus responsive */
-    width: 170px !important;
+
+    /* width: 170px !important;
     height: 65px !important;
     margin-left: -39px;
     margin-bottom: 43px;
-    font-size: 27px !important;
+    font-size: 27px !important; */
   }
 }
 
@@ -77,12 +75,12 @@
   .update-button {
     /* pop up button */
     /* Iphone X responsive */
-
+/* 
     width: 110px !important;
     height: 40px !important;
     margin-bottom: 43px;
     font-size: 20px !important;
-    margin-left: 5px;
+    margin-left: 5px; */
   }
 }
 
