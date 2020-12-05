@@ -16,6 +16,10 @@ const TakeOut = () => {
 
       <div className="menu-title">
         <h1>Take-Out Menu</h1>
+        <p>
+          Hungry? Order for pickup{" "}
+          <a href="tel:+1-707-996-1161">707-996-1161</a>
+        </p>
         <p>We also serve vegan entrée. Ask for detail.</p>
       </div>
       <div className="categories">
