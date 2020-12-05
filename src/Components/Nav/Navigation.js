@@ -27,8 +27,13 @@ const NavMain = styled.div`
 
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .navbar-nav {
-      /* margin-top: 70px; */
-      /* background: #00a1ff; */
+    
+    margin-top: 70px;
+    border: 1px solid white;
+    position: absolute;
+    background: black;
+    width: 295px;
+    left: -25px;
     }
   }
 
@@ -70,10 +75,10 @@ const NavMain = styled.div`
     .navbar-collapse {
       /* Iphone 8 responsive */
    
-      /* margin-right: -22px;
+      margin-right: -22px;
       padding-top: 110px !important;
       height: 615px;
-      margin-left: -121px; */
+      margin-left: -121px;
     }
   }
 
@@ -184,6 +189,17 @@ const NavMain = styled.div`
       /* border: 5px solid yellow !important; */
       margin: auto;
     }
+
+    @media only screen     /* Iphone 8 responsive */
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    height: 70px !important;
+      width: 100% !important;
+      /* border: 5px solid yellow !important; */
+      margin: auto;
+}
 
     @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
       /* Iphone X responsive */
