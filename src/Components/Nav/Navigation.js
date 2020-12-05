@@ -23,7 +23,7 @@ const NavMain = styled.div`
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .navbar-nav {
       margin-top: 70px;
-      background: #00a1ff;
+      /* background: #00a1ff; */
     }
   }
 
@@ -59,6 +59,7 @@ const NavMain = styled.div`
       margin-left: -117px;
       height: 600px;
       z-index: 1;
+      margin-top: 90px;
     }
   }
 
@@ -67,9 +68,10 @@ const NavMain = styled.div`
       /* Iphone 8 responsive */
       margin-right: -22px;
       padding-top: 110px !important;
-      height: 738px;
+      height: 615px;
       z-index: 1;
       margin-left: -121px;
+      margin-top: 90px;
     }
   }
 
