@@ -48,7 +48,7 @@ function App() {
               {" "}
               <TasteLogo src={Images}></TasteLogo>{" "}
             </Link> */}
-            <PopUp />
+            {/* <PopUp /> */}
           </div>
           <div className="link-side">
             <Navigation />
