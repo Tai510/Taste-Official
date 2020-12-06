@@ -293,7 +293,7 @@ const LunchMenu = () => {
 
           <div>
             <h3>Raita</h3>
-            <p>yougurt with cucumber, mint and spices</p>
+            <p>yogurt with cucumber, mint and spices</p>
             <p>$4</p>
           </div>
 
