@@ -17,7 +17,7 @@ function PopUp() {
         variant="primary"
         onClick={handleShow}
       >
-        Covid Updates ⚠️
+      ⚠️ Covid Updates
       </Button>
 
       <Modal className="Modal-main" show={show} onHide={handleClose}>
