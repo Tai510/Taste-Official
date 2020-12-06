@@ -1,11 +1,10 @@
 import React from "react";
 
-
 const LunchMenu = () => {
   return (
     <div className="menu-app">
       <div className="nav-background"></div>
-      
+
       <div className="restaurant-collage">
         <div className="restaurant-collage-1"></div>
         <div className="restaurant-collage-2"></div>
@@ -299,13 +298,11 @@ const LunchMenu = () => {
 
           <div>
             <h3>Mango Chutney</h3>
-            <p>garlic and basil spiced naan</p>
             <p>$4</p>
           </div>
 
           <div>
             <h3>Mixed Pickles</h3>
-            <p>chicken with bones marinated & broiled in tandoor oven</p>
             <p>$3</p>
           </div>
 

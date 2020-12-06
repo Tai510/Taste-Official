@@ -336,13 +336,11 @@ const TakeOut = () => {
 
           <div>
             <h3>Mango Chutney</h3>
-            <p>garlic and basil spiced naan</p>
             <p>$4</p>
           </div>
 
           <div>
             <h3>Mixed Pickles</h3>
-            <p>chicken with bones marinated & broiled in tandoor oven</p>
             <p>$3</p>
           </div>
 
