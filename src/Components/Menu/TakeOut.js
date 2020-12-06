@@ -96,7 +96,7 @@ const TakeOut = () => {
         </div>
 
         <div className="curry">
-          <div className="adding-option">
+          {/* <div className="adding-option">
             <div>
               <h3>Add To Any Lunch</h3>
             </div>
@@ -109,7 +109,7 @@ const TakeOut = () => {
               <h5>Vegetable 4</h5>
               <h5>Paneer 4</h5>
             </div>
-          </div>
+          </div> */}
 
           <div>
             <h3>Mismas Tarkari</h3>
@@ -223,7 +223,7 @@ const TakeOut = () => {
         </div>
 
         <div>
-          <div className="tandoori-option">
+          {/* <div className="tandoori-option">
             <div>
               <h3>Add To Any Tandoori</h3>
             </div>
@@ -234,7 +234,7 @@ const TakeOut = () => {
               <h5>Salmon 7</h5>
               <h5>Vegetable 5</h5>
             </div>
-          </div>
+          </div> */}
 
           <div>
             <h3>Vegetable Tandoori</h3>

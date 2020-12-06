@@ -88,7 +88,6 @@ const TopButton = styled.div`
 const Contact = () => {
   return (
     <div>
-      
       <div className="nav-background"></div>
       <div className="restaurant-collage">
         <div className="restaurant-collage-1"></div>

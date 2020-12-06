@@ -79,10 +79,9 @@
 }
 
 .bottom-title {
-  font-family: "Lato", sans-serif;
+  font-family: 'Oswald', sans-serif;
   margin-top: 25px;
   margin-bottom: 15px;
-  text-decoration: underline;
 }
 
 /* Media Queries  */
@@ -189,7 +188,7 @@
   width: 447px;
   margin: auto;
   margin-bottom: 20px;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .form-div {
@@ -225,6 +224,7 @@
   border: 2px solid #fff;
   background: #252934;
   color: #fff;
+  margin-top: 5px;
 }
 
 .form-div button:hover {
@@ -263,6 +263,7 @@
 
 #contact-title {
   font-family: 'Oswald', sans-serif;
+  padding-top: 30px;
 }
 
 
