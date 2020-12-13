@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { db } from "../../firebase";
+import firebase from "firebase/app";
 
 const ContactForm = () => {
   const [name, setName] = useState("");
@@ -14,6 +15,7 @@ const ContactForm = () => {
         name: name,
         email: email,
         message: message,
+        timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       })
       .then(() => {
         alert("Message has been submitted!!!!");
