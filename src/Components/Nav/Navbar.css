@@ -24,7 +24,7 @@
 .Navbar-Main .navbar-light .navbar-nav .nav-link {
   color: white !important;
   /* border: 1px solid red; */
-  /* width: 120px; */
+  width: 120px;
   height: 145px;
   background: transparent;
   padding-top: 95px;
