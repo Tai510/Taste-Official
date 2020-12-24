@@ -127,7 +127,7 @@ and (max-device-width : 568px) {
 }
 
   @media (max-width: 812px) {
-    margin-top: 370px;
+    margin-top: 70px;
 }
   }
 `;

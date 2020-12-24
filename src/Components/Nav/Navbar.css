@@ -24,10 +24,19 @@
 .Navbar-Main .navbar-light .navbar-nav .nav-link {
   color: white !important;
   /* border: 1px solid red; */
-  width: 120px;
+  /* width: 120px; */
   height: 145px;
   background: transparent;
   padding-top: 95px;
+}
+
+/* iPad  */
+@media only screen and (device-width: 768px) {
+  .Navbar-Main .bg-light {
+    background: transparent !important;
+    padding: 0;
+    position: absolute;
+  }
 }
 
 .Navbar-Main .navbar-light .navbar-nav .nav-link:hover {
@@ -91,6 +100,18 @@
   }
 }
 
+/* iPad  */
+@media only screen and (device-width: 768px) {
+  .navbar-nav .dropdown-menu {
+    background: #f1443b !important;
+    width: 200px;
+    margin: auto !important;
+    border: none;
+    text-align: center;
+}
+ }
+
+
 /* the Humburger icon style */
 .Navbar-Main .navbar-light .navbar-toggler {
   background: rgb(153, 155, 153) !important;
@@ -126,16 +147,16 @@
   }
 }
 
+@media only screen and (device-width: 768px) {
+  .Navbar-Main .navbar-light .navbar-toggler {
+    margin-left: 570px !important;
+    margin-top: 35px;
+  }
+}
+
 .Navbar-Main .navbar-nav {
   background: transparent;
   margin-top: -24px;
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .Navbar-Main .navbar-nav {
-    background: purple;
-    margin-top: -24px;
-  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
@@ -163,6 +184,17 @@
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
   .Navbar-Main .navbar-nav {
     height: 740px;
+  }
+}
+
+/* Ipad Media */
+@media only screen and (device-width: 768px) {
+  .Navbar-Main .navbar-nav {
+    height: 700px;
+    background: #c71b1a;
+    width: 768px !important;
+    margin-left: -90px;
+    margin-top: -75px;
   }
 }
 

@@ -1,37 +1,5 @@
 .PopUp {
-  /* width: 100px;
-  margin-top: 4px;
-  margin-bottom: 2px; */
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .PopUp {
-    /* Iphone 5 responsive */
-    /* margin: auto;
-    margin-bottom: -25px;
-    margin-top: 0px; */
-  }
-}
-
-@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
-}
-
-@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-  .PopUp {
-    /* Iphone 8 plus responsive */
-    /* margin: auto;
-    margin-bottom: -25px !important;
-    margin-top: 0px !important; */
-  }
-}
-
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-  .PopUp {
-    /* Iphone X responsive */
-    /* margin: auto;
-    margin-bottom: -25px !important;
-    margin-top: 0px !important; */
-  }
+  z-index: 1 !important;
 }
 
 .update-button {
@@ -93,6 +61,16 @@
     margin-right: 0px;
     width: 180px !important;
     padding-left: 11px !important;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  .Navbar-Main {
+    height: 90px;
+  }
+  .update-button {
+    margin-top: 22px;
+    z-index: 1 !important;
   }
 }
 
