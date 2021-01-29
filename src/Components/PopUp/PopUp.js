@@ -29,7 +29,7 @@ function PopUp() {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className="pop-body">
-          <span><FcAbout /></span>Due to the new covid updates we are only doing <a href='take-out'>takeout</a>. If you have any question call{" "}
+          <span><FcAbout /></span>Since shelter inplace has been lifted we are open for outdoor seating. We are looking forward to seeing our guest. If you have any question call{" "}
           <a href="tel:+1-707-996-1161"> 707-996-1161</a>.
         </Modal.Body>
         <Modal.Body className="pop-body">

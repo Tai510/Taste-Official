@@ -6,7 +6,8 @@ const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
- 
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -18,7 +19,7 @@ const ContactForm = () => {
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       })
       .then(() => {
-        alert("Message has been submitted!!!!");
+        // alert("Message has been submitted!!!!");
       })
       .catch((error) => {
         alert(error.message);
