@@ -19,7 +19,7 @@ const ContactForm = () => {
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       })
       .then(() => {
-        // alert("Message has been submitted!!!!");
+        alert("Thank You! We will get back to you.");
       })
       .catch((error) => {
         alert(error.message);
@@ -49,7 +49,7 @@ const ContactForm = () => {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
-        <button disabled={(!name, !email, !message)} type="submit">
+        <button className='contact-submit-button' disabled={(!name, !email, !message)} type="submit">
           Submit
         </button>
       </form>

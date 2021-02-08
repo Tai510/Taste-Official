@@ -1,3 +1,7 @@
+.contact-submit-button {
+  cursor: pointer;
+}
+
 .contact-bottom-section {
   display: flex;
   justify-content: space-evenly;
