@@ -157,7 +157,7 @@ const Home = () => {
         </HomeGreeting>
 
         <ButtonDiv>
-          <a href="https://tastehimalayas.menu11.com/sonoma/order">
+          <a style={{ display: "table-cell" }} target="_blank" rel="noopener noreferrer" href="https://tastehimalayas.menu11.com/sonoma/order">
             <Button variant="contained" color="secondary">
               ORDER ONLINE <i class="fas fa-phone"></i>
             </Button>
