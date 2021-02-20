@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import CarouselPage from "../Carousel/CarouselPage";
+import Button from "@material-ui/core/Button";
 
 const HomePage = styled.div`
   background-image: url("https://images.unsplash.com/photo-1509359149003-657ef23eaf04?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
@@ -12,8 +13,6 @@ const HomePage = styled.div`
   width: 100%;
   border-bottom: 2px solid white;
   margin-top: -200px;
-
-
 
   /* homepage background media queries */
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
@@ -28,7 +27,7 @@ const HomePage = styled.div`
   }
 
   @media (max-width: 812px) {
-    /* Iphone 8 plus responsive */ 
+    /* Iphone 8 plus responsive */
 
     height: 890px !important;
   }
@@ -120,6 +119,18 @@ const ButtonDiv = styled.div`
   display: flex;
   justify-content: center;
 
+  button {
+    outline: none;
+  }
+
+  a {
+    text-decoration : none;
+  }
+
+  i {
+    padding-left: 5px;
+  }
+
   @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) { 
@@ -129,77 +140,6 @@ and (max-device-width : 568px) {
   @media (max-width: 812px) {
     margin-top: 70px;
 }
-  }
-`;
-
-const LunchMenu = styled.div`
-  /* iPhone 5 responsive */
-  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  }
-
-  /* iPhone 8 plus responsive */
-  @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-  }
-
-  .lunch-button {
-    display: inline-block;
-    width: 200px;
-    padding-top: 15px;
-    color: #fff;
-    border: 2px solid #fff;
-    text-align: center;
-    outline: none;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bolder !important;
-    height: 55px;
-    width: 140px;
-    margin: 2px 3px;
-    border-radius: 3px;
-
-    /* iPhone 5 responsive */
-    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-      width: 115px;
-      height: 50px;
-    }
-
-    :hover,
-    :active {
-      background-color: #fff;
-      color: #000;
-    }
-  }
-`;
-
-const DinnerMenu = styled.div`
-  .dinner-button {
-    display: inline-block;
-    width: 200px;
-    padding-top: 15px;
-    color: #fff;
-    border: 2px solid #fff;
-    text-align: center;
-    outline: none;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bolder !important;
-    height: 55px;
-    width: 140px;
-    margin: 2px 3px;
-    border-radius: 3px;
-
-     /* iPhone 5 responsive */
-     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-      width: 115px;
-      height: 50px;
-    }
-
-
-    :hover,
-    :active {
-      background-color: #fff;
-      color: #000;
-    }
   }
 `;
 
@@ -217,17 +157,11 @@ const Home = () => {
         </HomeGreeting>
 
         <ButtonDiv>
-          <Link to="/lunch-menu">
-            <LunchMenu>
-              <span class="lunch-button">LUNCH MENU</span>
-            </LunchMenu>
-          </Link>
-
-          <Link to="/dinner-menu">
-            <DinnerMenu>
-              <span class="dinner-button">DINNER MENU</span>
-            </DinnerMenu>
-          </Link>
+          <a href="https://tastehimalayas.menu11.com/sonoma/order">
+            <Button variant="contained" color="secondary">
+              ORDER ONLINE <i class="fas fa-phone"></i>
+            </Button>
+          </a>
         </ButtonDiv>
       </HomePage>
       <CarouselPage />
