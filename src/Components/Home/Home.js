@@ -124,7 +124,7 @@ const ButtonDiv = styled.div`
     z-index: 1;
     height: 55px;
     width: 200px;
-    font-size: 16px;
+    font-size: 17px;
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
       margin-top: 120px !important;
     }
@@ -168,7 +168,7 @@ const Home = () => {
             href="https://tastehimalayas.menu11.com/sonoma/order"
           >
             <Button variant="contained" color="secondary">
-              ORDER ONLINE <i class="fas fa-phone"></i>
+              ORDER ONLINE
             </Button>
           </a>
         </ButtonDiv>
