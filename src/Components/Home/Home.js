@@ -121,25 +121,29 @@ const ButtonDiv = styled.div`
 
   button {
     outline: none;
+    z-index: 1;
+    height: 55px;
+    width: 200px;
+    font-size: 16px;
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+      margin-top: 120px !important;
+    }
   }
 
   a {
-    text-decoration : none;
+    text-decoration: none;
   }
 
   i {
     padding-left: 5px;
   }
 
-  @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) { 
-  margin-top: 315px !important;
-}
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    margin-top: 315px !important;
+  }
 
   @media (max-width: 812px) {
     margin-top: 70px;
-}
   }
 `;
 
@@ -157,7 +161,12 @@ const Home = () => {
         </HomeGreeting>
 
         <ButtonDiv>
-          <a style={{ display: "table-cell" }} target="_blank" rel="noopener noreferrer" href="https://tastehimalayas.menu11.com/sonoma/order">
+          <a
+            style={{ display: "table-cell" }}
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://tastehimalayas.menu11.com/sonoma/order"
+          >
             <Button variant="contained" color="secondary">
               ORDER ONLINE <i class="fas fa-phone"></i>
             </Button>

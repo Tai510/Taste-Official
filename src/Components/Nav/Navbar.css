@@ -220,3 +220,13 @@
   }
 }
 /* dropdown on menu responsive styling end */
+
+
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+      .navbar-toggler {
+        margin-left: 315px;
+    }
+    }
