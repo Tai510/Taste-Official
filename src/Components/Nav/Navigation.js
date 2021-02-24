@@ -14,9 +14,6 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <ReactBooStrap.Nav className="links">
-            {/* <div className="pop-up-Link">
-              <PopUp />
-            </div> */}
             <ReactBooStrap.Nav.Link
               eventKey={2}
               href="/"
@@ -30,31 +27,53 @@ const Navigation = () => {
               title={<a>Menu</a>}
               id="basic-nav-dropdown"
             >
-              <ReactBooStrap.NavDropdown.Item eventKey={2} href="/lunch-menu">
+              <ReactBooStrap.NavDropdown.Item
+                eventKey={2}
+                href="/dinner-menu"
+                className="nav-active"
+              >
                 <div className="drop-down-links">
                   <Link to="/lunch-menu">Lunch Menu</Link>
                 </div>
               </ReactBooStrap.NavDropdown.Item>
-              <ReactBooStrap.NavDropdown.Item eventKey={2} href="/dinner-menu">
+              <ReactBooStrap.NavDropdown.Item
+                eventKey={2}
+                href="/dinner-menu"
+                className="nav-active"
+              >
                 <div className="drop-down-links">
                   <Link to="/dinner-menu">Dinner Menu</Link>
                 </div>
               </ReactBooStrap.NavDropdown.Item>
-              <ReactBooStrap.NavDropdown.Item eventKey={2} href="/wine-list">
+              <ReactBooStrap.NavDropdown.Item
+                eventKey={2}
+                href="/wine-list"
+                className="nav-active"
+              >
                 <div className="drop-down-links">
                   <Link to="/wine-list">Wine List</Link>
                 </div>
               </ReactBooStrap.NavDropdown.Item>
             </ReactBooStrap.NavDropdown>
-            <ReactBooStrap.Nav.Link eventKey={2} href="/take-out">
-              <Link to="/take-out">
-                <div>Take-Out</div>
-              </Link>
+
+            <ReactBooStrap.Nav.Link
+              eventKey={2}
+              href="/take-out"
+              className="nav-active"
+            >
+              <div className="home-nav">
+                <Link to="/take-out">Take-Out</Link>
+              </div>
             </ReactBooStrap.Nav.Link>
-            <ReactBooStrap.Nav.Link eventKey={2} href="/contact">
-              <Link to="/contact">
-                <div>Contact</div>
-              </Link>
+
+            <ReactBooStrap.Nav.Link
+              eventKey={2}
+              href="/contact"
+              className="nav-active"
+            >
+              <div className="home-nav">
+                <Link to="/contact">Contact</Link>
+              </div>
             </ReactBooStrap.Nav.Link>
           </ReactBooStrap.Nav>
         </Navbar.Collapse>

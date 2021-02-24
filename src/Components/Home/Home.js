@@ -121,7 +121,7 @@ const ButtonDiv = styled.div`
 
   button {
     outline: none;
-    z-index: 1;
+    z-index: 0 !important;
     height: 55px;
     width: 200px;
     font-size: 17px;
@@ -167,7 +167,7 @@ const Home = () => {
             rel="noopener noreferrer"
             href="https://tastehimalayas.menu11.com/sonoma/order"
           >
-            <Button variant="contained" color="secondary">
+            <Button className='OrderButton' variant="contained" color="secondary">
               ORDER ONLINE
             </Button>
           </a>
