@@ -49,7 +49,7 @@
   .Navbar-Main .navbar-light .navbar-nav .nav-link {
     width: 100%;
     padding: 0;
-    /* border: 1px solid; */
+    border: 1px solid #9a9696;
     height: 70px;
     padding-top: 22px;
   }
@@ -171,7 +171,7 @@
     margin-top: -85px;
     padding-top: 135px;
     padding-bottom: 70px;
-    height: 580px;
+    margin-left: 85px;
   }
 }
 
@@ -214,9 +214,13 @@
     position: static;
     float: none;
     background: #f1443b !important;
-    width: 150px;
-    margin: auto !important;
+    width: 100% !important;
     border: none !important;
+    text-align: center;
+    padding: 0;
+  }
+  .dropdown-item {
+    border: 1px solid !important;
   }
 }
 /* dropdown on menu responsive styling end */

@@ -43,13 +43,6 @@ function App() {
     <Main className="App">
       <Router>
         <div className="logoNav">
-          <div className="logo-side">
-            {/* <Link to="/">
-              {" "}
-              <TasteLogo src={Images}></TasteLogo>{" "}
-            </Link> */}
-            {/* <PopUp /> */}
-          </div>
           <div className="link-side">
             <Navigation />
           </div>

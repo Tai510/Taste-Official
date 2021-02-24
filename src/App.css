@@ -1,5 +1,7 @@
 .link-side {
   background: #2b2a2a;
+  position: relative;
+    z-index: 2;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
