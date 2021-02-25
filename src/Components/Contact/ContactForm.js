@@ -32,7 +32,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="ContactForm">
+    <div id='contact-form' className="ContactForm">
       <form className="form-div" onSubmit={handleSubmit}>
         <input
           placeholder="Name"

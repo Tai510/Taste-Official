@@ -5,6 +5,16 @@ import CarouselPage from "../Carousel/CarouselPage";
 import Button from "@material-ui/core/Button";
 
 const HomePage = styled.div`
+  .restaurant-info-bottom {
+    color: grey !important;
+    a {
+      color: grey !important;
+      text-decoration: none;
+    }
+    margin-top: 230px;
+    text-decoration: none;
+  }
+
   background-image: url("https://images.unsplash.com/photo-1509359149003-657ef23eaf04?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,6 +29,11 @@ const HomePage = styled.div`
     /* Iphone 5 responsive */
     height: 655px !important;
     padding-top: 220px;
+
+    .restaurant-info-bottom {
+      margin-top: 100px;
+      font-size: 9px;
+    }
   }
 
   @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
@@ -96,17 +111,17 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) { 
     width: 100% !important;
     height: 50px !important;
-    margin-top: -140px;
+    margin-top: -250px;
     h1 {
      font-size: 17px !important;
      height: 50px !important; 
      margin-bottom: 5px;
-     padding-top: 12px !important;
+     padding-top: 20px !important;
      /* text-align: center !important; */
        }
     h3 {
-        font-size: 16px !important;
-        margin-bottom: -11px !important;
+      font-size: 20px !important;
+    margin-bottom: -19px !important;
     }
     p {
         font-size: 11px;
@@ -126,7 +141,7 @@ const ButtonDiv = styled.div`
     width: 200px;
     font-size: 17px;
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-      margin-top: -10px !important;
+      margin-top: 15px !important;
     }
   }
 
@@ -167,11 +182,20 @@ const Home = () => {
             rel="noopener noreferrer"
             href="https://tastehimalayas.menu11.com/sonoma/order"
           >
-            <Button className='OrderButton' variant="contained" color="secondary">
+            <Button
+              className="OrderButton"
+              variant="contained"
+              color="secondary"
+            >
               ORDER ONLINE
             </Button>
           </a>
         </ButtonDiv>
+        <p className="restaurant-info-bottom">
+            464 1st St E Suite F, Sonoma, CA 95476
+          | <a href="tel:+1-707-996-1161">707-996-1161</a> |{" "}
+          <Link to="/contact">Contact Us</Link>
+        </p>
       </HomePage>
       <CarouselPage />
     </div>

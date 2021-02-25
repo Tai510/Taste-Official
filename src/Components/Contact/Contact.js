@@ -123,7 +123,7 @@ const Contact = () => {
         </ContactTop>
       </Space>
 
-      <div className="bottom-title">
+      <div id='location' className="bottom-title">
         <h1>Locations & Hours</h1>
       </div>
 
