@@ -256,6 +256,12 @@
 
 @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
   .navbar-toggler {
-    margin-left: 325px !important;
+    margin-left: 320px !important;
   }
+  .Navbar-Main .navbar-nav {
+    height: 720px !important;
+    width: 375px !important;
+    margin-left: -16px;
+    margin-top: -95px;
+}
 }
