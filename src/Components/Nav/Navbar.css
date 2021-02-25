@@ -23,9 +23,8 @@
 /* Link tag with arrow divs */
 .Navbar-Main .navbar-light .navbar-nav .nav-link {
   color: white !important;
-  /* border: 1px solid red; */
+  height: 110px !important;
   width: 120px;
-  height: 145px;
   background: transparent;
   padding-top: 95px;
 }
@@ -51,7 +50,7 @@
     padding: 0;
     border: 1px solid #9a9696;
     height: 70px;
-    padding-top: 22px;
+    padding-top: 35px;
   }
 }
 /* Link tag with arrow divs end */
@@ -69,7 +68,7 @@
 /* all link a tags */
 .Navbar-Main a {
   color: white;
-  font-size: 19px;
+  font-size: 25px;
 }
 /* all link a tags end */
 
@@ -108,9 +107,8 @@
     margin: auto !important;
     border: none;
     text-align: center;
+  }
 }
- }
-
 
 /* the Humburger icon style */
 .Navbar-Main .navbar-light .navbar-toggler {
@@ -220,18 +218,14 @@
   }
   .dropdown-item {
     border: 1px solid !important;
+    height: 70px;
+    padding-top: 15px !important;
   }
 }
 /* dropdown on menu responsive styling end */
 
-
-@media only screen 
-    and (device-width: 390px) 
-    and (device-height: 844px) 
-    and (-webkit-device-pixel-ratio: 3) { 
-      .navbar-toggler {
-        margin-left: 325px !important;
-    }
-    }
-
-    
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .navbar-toggler {
+    margin-left: 325px !important;
+  }
+}
