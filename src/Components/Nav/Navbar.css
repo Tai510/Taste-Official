@@ -10,6 +10,9 @@
   .Navbar-Main {
     display: inline;
   }
+  .Navbar-Main a {
+    font-size: 25px !important;
+  }
 }
 /* the whole navbar css end */
 
@@ -23,10 +26,10 @@
 /* Link tag with arrow divs */
 .Navbar-Main .navbar-light .navbar-nav .nav-link {
   color: white !important;
-  height: 110px !important;
+  height: 135px !important;
   width: 120px;
   background: transparent;
-  padding-top: 95px;
+  padding-top: 90px;
 }
 
 /* iPad  */
@@ -49,7 +52,17 @@
     width: 100%;
     padding: 0;
     border: 1px solid #9a9696;
-    height: 70px;
+    height: 80px !important;
+    padding-top: 35px;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .Navbar-Main .navbar-light .navbar-nav .nav-link {
+    width: 100%;
+    padding: 0;
+    border: 1px solid #9a9696;
+    height: 100px !important;
     padding-top: 35px;
   }
 }
@@ -68,7 +81,7 @@
 /* all link a tags */
 .Navbar-Main a {
   color: white;
-  font-size: 25px;
+  font-size: 19px;
 }
 /* all link a tags end */
 
