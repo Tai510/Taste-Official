@@ -4,7 +4,7 @@
 
 .update-button {
   /* pop up button */
-
+  margin-left: 65px !important;
   height: 50px !important;
   width: 140px !important;
   padding: 0 !important;
@@ -29,7 +29,7 @@
     margin-left: -200px !important;
     position: relative;
     padding-left: 15px !important;
-    margin-top: 10px !important;
+    margin-top: 27px !important;
   }
 }
 
@@ -37,8 +37,8 @@
   .update-button {
     /* Iphone 5 responsive */
 
-    font-size: 17px !important;
-    margin-right: 25px !important;
+    font-size: 20px !important;
+    margin-right: -5px !important;
     padding-left: 5px !important;
   }
 }
@@ -48,7 +48,10 @@
     /* pop up button */
     /* Iphone 8 plus responsive */
 
-    margin-right: 40px !important;
+    font-size: 25px !important;
+    margin-right: -10px !important;
+    width: 180px !important;
+    margin-top: 27px !important;
   }
 }
 
@@ -58,9 +61,9 @@
     /* Iphone X responsive */
 
     font-size: 22px !important;
-    margin-right: 0px;
+    margin-right: -35px;
     width: 180px !important;
-    padding-left: 11px !important;
+    margin-top: 35px !important;
   }
 }
 

@@ -29,7 +29,7 @@ const HomePage = styled.div`
   @media (max-width: 812px) {
     /* Iphone 8 plus responsive */
 
-    height: 890px !important;
+    height: 530px !important;
   }
 `;
 
@@ -126,7 +126,7 @@ const ButtonDiv = styled.div`
     width: 200px;
     font-size: 17px;
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-      margin-top: 120px !important;
+      margin-top: -10px !important;
     }
   }
 
