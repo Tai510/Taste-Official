@@ -55,7 +55,7 @@ const CarouselPage = () => {
     infinite: false,
     speed: 1000,
     arrows: true,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     dots: true,
 
