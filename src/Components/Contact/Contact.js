@@ -160,7 +160,7 @@ const Contact = () => {
           </p>
           <h5>Dinner</h5>
           <p>
-            Mon - Sun <span id="dinner-hours">05:00 am - 09:00 pm</span>
+            Mon - Sun <span id="dinner-hours">05:00 pm - 09:00 pm</span>
           </p>
         </div>
       </div>
