@@ -64,7 +64,7 @@ const ContactForm = () => {
         {/* <button className='contact-submit-button' disabled={(!name, !email, !message)} type="submit">
           Submit
         </button> */}
-        <button className='contact-submit-button' type="submit" value="Send Message">Submit</button>
+        <button className='contact-submit-button' type="submit" value="Send Message">Test</button>
       </form>
     </div>
   );
